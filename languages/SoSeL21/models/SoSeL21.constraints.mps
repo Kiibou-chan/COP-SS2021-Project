@@ -387,14 +387,14 @@
             <node concept="3cpWsn" id="IA9doTucrG" role="3cpWs9">
               <property role="TrG5h" value="parent" />
               <node concept="3Tqbb2" id="IA9doTucrB" role="1tU5fm">
-                <ref role="ehGHo" to="np8v:6GOY7UWsz52" resolve="DotOperation" />
+                <ref role="ehGHo" to="np8v:6GOY7UWsz52" resolve="DotExpression" />
               </node>
               <node concept="2OqwBi" id="IA9doTucS8" role="33vP2m">
                 <node concept="2rP1CM" id="IA9doTucC2" role="2Oq$k0" />
                 <node concept="2Xjw5R" id="IA9doTud3v" role="2OqNvi">
                   <node concept="1xMEDy" id="IA9doTud3x" role="1xVPHs">
                     <node concept="chp4Y" id="IA9doTud6I" role="ri$Ld">
-                      <ref role="cht4Q" to="np8v:6GOY7UWsz52" resolve="DotOperation" />
+                      <ref role="cht4Q" to="np8v:6GOY7UWsz52" resolve="DotExpression" />
                     </node>
                   </node>
                   <node concept="1xIGOp" id="IA9doTudaP" role="1xVPHs" />
@@ -419,7 +419,7 @@
                           <ref role="3cqZAo" node="IA9doTucrG" resolve="parent" />
                         </node>
                         <node concept="3TrEf2" id="FevvnPUOgq" role="2OqNvi">
-                          <ref role="3Tt5mk" to="np8v:6GOY7UWsz6p" resolve="left" />
+                          <ref role="3Tt5mk" to="np8v:6GOY7UWsz6p" resolve="operand" />
                         </node>
                       </node>
                       <node concept="3JvlWi" id="FevvnPUOTR" role="2OqNvi" />
@@ -445,7 +445,7 @@
             <node concept="nLn13" id="FevvnPUK1n" role="2Oq$k0" />
             <node concept="1mIQ4w" id="FevvnPUK3F" role="2OqNvi">
               <node concept="chp4Y" id="FevvnPUK8a" role="cj9EA">
-                <ref role="cht4Q" to="np8v:6GOY7UWsz52" resolve="DotOperation" />
+                <ref role="cht4Q" to="np8v:6GOY7UWsz52" resolve="DotExpression" />
               </node>
             </node>
           </node>
@@ -469,7 +469,7 @@
                 <node concept="2Xjw5R" id="KH4CCma30X" role="2OqNvi">
                   <node concept="3gmYPX" id="KH4CCma30Y" role="1xVPHs">
                     <node concept="3gn64h" id="KH4CCma30Z" role="3gmYPZ">
-                      <ref role="3gnhBz" to="np8v:6GOY7UWsz52" resolve="DotOperation" />
+                      <ref role="3gnhBz" to="np8v:6GOY7UWsz52" resolve="DotExpression" />
                     </node>
                     <node concept="3gn64h" id="KH4CCma310" role="3gmYPZ">
                       <ref role="3gnhBz" to="np8v:KH4CClWz$R" resolve="StaticAccess" />
@@ -498,14 +498,14 @@
                           <node concept="2OqwBi" id="FevvnPUUX2" role="2Oq$k0">
                             <node concept="1PxgMI" id="2dZ8sicFLtG" role="2Oq$k0">
                               <node concept="chp4Y" id="2dZ8sicFLFH" role="3oSUPX">
-                                <ref role="cht4Q" to="np8v:6GOY7UWsz52" resolve="DotOperation" />
+                                <ref role="cht4Q" to="np8v:6GOY7UWsz52" resolve="DotExpression" />
                               </node>
                               <node concept="37vLTw" id="2dZ8sicFLhh" role="1m5AlR">
                                 <ref role="3cqZAo" node="KH4CCma2R1" resolve="node" />
                               </node>
                             </node>
                             <node concept="3TrEf2" id="2dZ8sicFLWJ" role="2OqNvi">
-                              <ref role="3Tt5mk" to="np8v:6GOY7UWsz6p" resolve="left" />
+                              <ref role="3Tt5mk" to="np8v:6GOY7UWsz6p" resolve="operand" />
                             </node>
                           </node>
                           <node concept="3JvlWi" id="FevvnPUV_Z" role="2OqNvi" />
@@ -528,7 +528,7 @@
               </node>
               <node concept="1mIQ4w" id="KH4CClWD3h" role="2OqNvi">
                 <node concept="chp4Y" id="KH4CClWDqo" role="cj9EA">
-                  <ref role="cht4Q" to="np8v:6GOY7UWsz52" resolve="DotOperation" />
+                  <ref role="cht4Q" to="np8v:6GOY7UWsz52" resolve="DotExpression" />
                 </node>
               </node>
             </node>
@@ -578,7 +578,7 @@
               <node concept="2Xjw5R" id="KH4CClW$Ul" role="2OqNvi">
                 <node concept="3gmYPX" id="KH4CClW_c6" role="1xVPHs">
                   <node concept="3gn64h" id="KH4CClW_eU" role="3gmYPZ">
-                    <ref role="3gnhBz" to="np8v:6GOY7UWsz52" resolve="DotOperation" />
+                    <ref role="3gnhBz" to="np8v:6GOY7UWsz52" resolve="DotExpression" />
                   </node>
                   <node concept="3gn64h" id="KH4CClW_sb" role="3gmYPZ">
                     <ref role="3gnhBz" to="np8v:KH4CClWz$R" resolve="StaticAccess" />

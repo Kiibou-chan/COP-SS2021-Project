@@ -12,8 +12,6 @@
       <concept id="693107361605104919" name="SoSeL21.structure.FloatLiteral" flags="ng" index="mc5LI">
         <property id="693107361605104922" name="float" index="mc5Lz" />
       </concept>
-      <concept id="693107361605104861" name="SoSeL21.structure.FloatType" flags="ng" index="mc5Q$" />
-      <concept id="693107361604759935" name="SoSeL21.structure.PowerExpression" flags="ng" index="mdDw6" />
       <concept id="877377886685552368" name="SoSeL21.structure.IFunctionCall" flags="ng" index="pwsLU">
         <reference id="877377886685552372" name="function" index="pwsLY" />
         <child id="877377886685552370" name="arguments" index="pwsLS" />
@@ -357,8 +355,8 @@
         </node>
       </node>
     </node>
-    <node concept="1fYw7K" id="2ThwReIapJR" role="H0yoO">
-      <node concept="1ZSnvI" id="2ThwReIapJQ" role="1fYw7F" />
+    <node concept="1fYw7K" id="5O48DErR981" role="H0yoO">
+      <node concept="1ZSnvI" id="5O48DErR980" role="1fYw7F" />
     </node>
     <node concept="1fYw7K" id="3dga67SrWht" role="H0yoO">
       <node concept="ugElM" id="3dga67SrWkW" role="1fYw7F">
@@ -2101,78 +2099,6 @@
         </node>
         <node concept="1FEkYV" id="3K_CYPEbIRZ" role="36_Bp7">
           <ref role="1FEkZa" node="3K_CYPE7HRQ" resolve="mutx" />
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="H0yoZ" id="Auqn$vEeGR">
-    <property role="TrG5h" value="Bett" />
-    <node concept="1fYw7K" id="Auqn$vEeL8" role="H0yoO">
-      <node concept="3ZI$xm" id="Auqn$vEeLu" role="1fYw7F">
-        <property role="TrG5h" value="rope_length" />
-        <node concept="1lqm5T" id="Auqn$vEeMm" role="H1x4N">
-          <node concept="1FC2xX" id="Auqn$vR7bS" role="1ltHvW">
-            <node concept="1FD3Uf" id="Auqn$vR7bT" role="1FEZOn">
-              <node concept="mdDw6" id="Auqn$vR7bU" role="1FEZOn">
-                <node concept="1FFyyX" id="Auqn$vR7bV" role="1FEZOn">
-                  <node concept="1FC2xX" id="Auqn$vR7bW" role="1FFyBT">
-                    <node concept="mdDw6" id="Auqn$vR7bX" role="1FEZOn">
-                      <node concept="1FEkYV" id="Auqn$vEeM$" role="1FEZOn">
-                        <ref role="1FEkZa" node="Auqn$vEeLT" resolve="h" />
-                      </node>
-                      <node concept="mc5LI" id="Auqn$vQsUI" role="1FEZOl">
-                        <property role="mc5Lz" value="2." />
-                      </node>
-                    </node>
-                    <node concept="mdDw6" id="Auqn$vR7bY" role="1FEZOl">
-                      <node concept="1FEkYV" id="Auqn$vEeOg" role="1FEZOn">
-                        <ref role="1FEkZa" node="Auqn$vEeLF" resolve="b" />
-                      </node>
-                      <node concept="mc5LI" id="Auqn$vQsTy" role="1FEZOl">
-                        <property role="mc5Lz" value="2." />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-                <node concept="mc5LI" id="Auqn$vQsKS" role="1FEZOl">
-                  <property role="mc5Lz" value="0.5" />
-                </node>
-              </node>
-              <node concept="mc5LI" id="Auqn$vR7oh" role="1FEZOl">
-                <property role="mc5Lz" value="2." />
-              </node>
-            </node>
-            <node concept="1FD3Uf" id="Auqn$vR7bZ" role="1FEZOl">
-              <node concept="1FEkYV" id="Auqn$vQsYm" role="1FEZOn">
-                <ref role="1FEkZa" node="Auqn$vEeLT" resolve="h" />
-              </node>
-              <node concept="mc5LI" id="Auqn$vQt2w" role="1FEZOl">
-                <property role="mc5Lz" value="2." />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1le2F5" id="Auqn$vEeLT" role="1le2ET">
-          <property role="TrG5h" value="h" />
-          <node concept="mc5Q$" id="Auqn$vQsMW" role="1l2NL0" />
-        </node>
-        <node concept="1le2F5" id="Auqn$vEeLF" role="1le2ET">
-          <property role="TrG5h" value="b" />
-          <node concept="mc5Q$" id="Auqn$vQsO0" role="1l2NL0" />
-        </node>
-      </node>
-    </node>
-    <node concept="1fYw7K" id="Auqn$vKwq9" role="H0yoO">
-      <node concept="1ZSnvI" id="Auqn$vKwq8" role="1fYw7F" />
-    </node>
-    <node concept="1fYw7K" id="Auqn$vEeH3" role="H0yoO">
-      <node concept="13K8m7" id="Auqn$vEeX4" role="1fYw7F">
-        <ref role="pwsLY" node="Auqn$vEeLu" resolve="rope_length" />
-        <node concept="mc5LI" id="Auqn$vQtbY" role="pwsLS">
-          <property role="mc5Lz" value="125." />
-        </node>
-        <node concept="mc5LI" id="Auqn$vQtdu" role="pwsLS">
-          <property role="mc5Lz" value="220." />
         </node>
       </node>
     </node>
