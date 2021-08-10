@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="interpreter" uuid="454a587b-3a00-47f7-a2ef-c4718a2bd611" moduleVersion="0" pluginKind="PLUGIN_OTHER" compileInMPS="true">
+<solution name="SoSeL21.interpreter" uuid="454a587b-3a00-47f7-a2ef-c4718a2bd611" moduleVersion="0" pluginKind="PLUGIN_OTHER" compileInMPS="true">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
@@ -38,9 +38,9 @@
     <module reference="498d89d2-c2e9-11e2-ad49-6cf049e62fe5(MPS.IDEA)" version="0" />
     <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
     <module reference="4f36d2e1-a7c1-425d-9cb1-cdd2240b18b8(SoSeL21)" version="0" />
+    <module reference="454a587b-3a00-47f7-a2ef-c4718a2bd611(SoSeL21.interpreter)" version="0" />
     <module reference="735f86bc-17fb-4d1c-a664-82c2b8e8a34e(com.mbeddr.mpsutil.interpreter.rt)" version="0" />
     <module reference="726886d1-ef90-4249-a08f-1e3ec23a7113(com.mbeddr.mpsutil.traceExplorer)" version="0" />
-    <module reference="454a587b-3a00-47f7-a2ef-c4718a2bd611(interpreter)" version="0" />
     <module reference="4caf0310-491e-41f5-8a9b-2006b3a94898(jetbrains.mps.execution.util)" version="0" />
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
   </dependencyVersions>

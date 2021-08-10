@@ -13,7 +13,7 @@
       <concept id="8201050219496208969" name="SoSeL21.structure.WorksheetLine" flags="ng" index="1fYw7K">
         <child id="8201050219496208978" name="content" index="1fYw7F" />
       </concept>
-      <concept id="4334050456498816774" name="SoSeL21.structure.Struct" flags="ng" index="1m7IjF" />
+      <concept id="4334050456498816774" name="SoSeL21.structure.StructDefinition" flags="ng" index="1m7IjF" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">

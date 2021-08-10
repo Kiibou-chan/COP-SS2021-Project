@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:a1e97430-7d07-4206-a6ea-a49d9b759d40(TestingLanguage.generator.templates@generator)">
+<model ref="r:a1e97430-7d07-4206-a6ea-a49d9b759d40(SoSeL21.testing.templates@generator)">
   <persistence version="9" />
   <languages>
     <devkit ref="a2eb3a43-fcc2-4200-80dc-c60110c4862d(jetbrains.mps.devkit.templates)" />
   </languages>
   <imports>
-    <import index="g2me" ref="r:c718eb2e-4bdd-46ff-9445-9a565d05d0c1(TestingLanguage.structure)" />
+    <import index="g2me" ref="r:c718eb2e-4bdd-46ff-9445-9a565d05d0c1(SoSeL21.testing.structure)" />
   </imports>
   <registry>
     <language id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator">

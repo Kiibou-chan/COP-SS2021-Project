@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:b81599a8-a3cd-4d9f-896d-06993b9b6933(TestingLanguage.behavior)">
+<model ref="r:b81599a8-a3cd-4d9f-896d-06993b9b6933(SoSeL21.testing.behavior)">
   <persistence version="9" />
   <languages>
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="18" />

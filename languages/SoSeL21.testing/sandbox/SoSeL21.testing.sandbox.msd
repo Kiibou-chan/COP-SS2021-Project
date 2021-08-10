@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="TestingLanguage.sandbox" uuid="918226a5-172e-488f-b7f6-f29793bfc16c" moduleVersion="0" compileInMPS="true">
+<solution name="SoSeL21.testing.sandbox" uuid="918226a5-172e-488f-b7f6-f29793bfc16c" moduleVersion="0" compileInMPS="true">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
@@ -24,6 +24,7 @@
     <language slang="l:443f4c36-fcf5-4eb6-9500-8d06ed259e3e:jetbrains.mps.baseLanguage.classifiers" version="0" />
     <language slang="l:fd392034-7849-419d-9071-12563d152375:jetbrains.mps.baseLanguage.closures" version="0" />
     <language slang="l:83888646-71ce-4f1c-9c53-c54016f6ad4f:jetbrains.mps.baseLanguage.collections" version="1" />
+    <language slang="l:4caf0310-491e-41f5-8a9b-2006b3a94898:jetbrains.mps.execution.util" version="0" />
     <language slang="l:ceab5195-25ea-4f22-9b92-103b95ca8c0c:jetbrains.mps.lang.core" version="2" />
     <language slang="l:18bc6592-03a6-4e29-a83a-7ff23bde13ba:jetbrains.mps.lang.editor" version="14" />
     <language slang="l:446c26eb-2b7b-4bf0-9b35-f83fa582753e:jetbrains.mps.lang.modelapi" version="0" />
@@ -38,7 +39,7 @@
     <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
     <module reference="4f36d2e1-a7c1-425d-9cb1-cdd2240b18b8(SoSeL21)" version="0" />
     <module reference="bba0fc19-b1f3-40d6-b964-f4b34d85e055(SoSeL21.sandbox)" version="0" />
-    <module reference="918226a5-172e-488f-b7f6-f29793bfc16c(TestingLanguage.sandbox)" version="0" />
+    <module reference="918226a5-172e-488f-b7f6-f29793bfc16c(SoSeL21.testing.sandbox)" version="0" />
     <module reference="4caf0310-491e-41f5-8a9b-2006b3a94898(jetbrains.mps.execution.util)" version="0" />
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
   </dependencyVersions>

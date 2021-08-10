@@ -90,7 +90,7 @@
       <concept id="7613132891015227774" name="SoSeL21.structure.ReturnStatement" flags="ng" index="1lqm5T">
         <child id="7613132891015454715" name="expression" index="1ltHvW" />
       </concept>
-      <concept id="4334050456498816774" name="SoSeL21.structure.Struct" flags="ng" index="1m7IjF">
+      <concept id="4334050456498816774" name="SoSeL21.structure.StructDefinition" flags="ng" index="1m7IjF">
         <child id="4334050456499147133" name="properties" index="1mpvag" />
       </concept>
       <concept id="4334050456499147056" name="SoSeL21.structure.StructProperty" flags="ng" index="1mpvbt">

@@ -2,13 +2,14 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/SoSeL21.testing/SoSeL21.testing.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/SoSeL21.testing/runtime/SoSeL21.testing.runtime.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/SoSeL21.testing/sandbox/SoSeL21.testing.sandbox.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/SoSeL21/SoSeL21.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/TestingLanguage/TestingLanguage.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/TestingLanguage/runtime/TestingLanguage.runtime.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/TestingLanguage/sandbox/TestingLanguage.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/SoSeL21.interpreter/SoSeL21.interpreter.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/SoSeL21.runtime/SoSeL21.runtime.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/SoSeL21.sandbox/SoSeL21.sandbox.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/solutions/interpreter/interpreter.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/SoSeL21.testing.interpreter/SoSeL21.testing.interpreter.msd" folder="" />
     </projectModules>
   </component>
 </project>
