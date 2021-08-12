@@ -9,7 +9,7 @@
   </languages>
   <imports>
     <import index="5fn2" ref="r:dd86c9ac-51ec-48cd-9e05-fd73023a1d7c(interpreter.plugin)" />
-    <import index="np8v" ref="r:2927e85f-b64b-452e-b756-b84578e173bb(SoSeL21.structure)" implicit="true" />
+    <import index="np8v" ref="r:2927e85f-b64b-452e-b756-b84578e173bb(SoSeL21.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -122,7 +122,7 @@
   <node concept="jA7cl" id="2EDKjXiyxfy">
     <ref role="1M2myG" to="np8v:4KVaSxxegQR" resolve="Worksheet" />
     <node concept="j_Nyg" id="2EDKjXiyxf_" role="j$A37">
-      <ref role="j_u2Y" to="np8v:4KVaSxxegQW" resolve="children" />
+      <ref role="j_u2Y" to="np8v:1lTng$SvOKU" resolve="lines" />
       <node concept="3clFbS" id="2EDKjXiyxfB" role="2VODD2">
         <node concept="3clFbJ" id="2EDKjXiy_1r" role="3cqZAp">
           <node concept="1Wc70l" id="2EDKjXiC6NF" role="3clFbw">

@@ -79,15 +79,8 @@
     <node concept="PrWs8" id="6Bn7c0mcOzA" role="PzmwI">
       <ref role="PrY4T" to="4fqr:431DWIovi3l" resolve="IMainClass" />
     </node>
-    <node concept="PrWs8" id="4j_Xt46YxeB" role="PzmwI">
-      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
-    </node>
-    <node concept="1TJgyj" id="4KVaSxxegQW" role="1TKVEi">
-      <property role="IQ2ns" value="5493032035255127484" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="children" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="77fYV$YdvM3" resolve="ILineContent" />
+    <node concept="PrWs8" id="5UHxYNLd1u2" role="PzmwI">
+      <ref role="PrY4T" node="1lTng$Swj6r" resolve="IHasBody" />
     </node>
   </node>
   <node concept="1TIwiD" id="6Bn7c0mdAGI">

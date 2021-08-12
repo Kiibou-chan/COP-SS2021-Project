@@ -11,9 +11,9 @@
   </languages>
   <imports>
     <import index="tpc2" ref="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" />
+    <import index="5fn2" ref="r:dd86c9ac-51ec-48cd-9e05-fd73023a1d7c(interpreter.plugin)" />
     <import index="np8v" ref="r:2927e85f-b64b-452e-b756-b84578e173bb(SoSeL21.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="5fn2" ref="r:dd86c9ac-51ec-48cd-9e05-fd73023a1d7c(interpreter.plugin)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -227,7 +227,7 @@
               <node concept="2OqwBi" id="2EDKjXim8aN" role="2Oq$k0">
                 <node concept="2Sf5sV" id="2EDKjXim7Zc" role="2Oq$k0" />
                 <node concept="3Tsc0h" id="2EDKjXim8rg" role="2OqNvi">
-                  <ref role="3TtcxE" to="np8v:4KVaSxxegQW" resolve="children" />
+                  <ref role="3TtcxE" to="np8v:1lTng$SvOKU" resolve="lines" />
                 </node>
               </node>
               <node concept="v3k3i" id="2EDKjXimcoJ" role="2OqNvi">
@@ -276,7 +276,7 @@
             <node concept="2OqwBi" id="2EDKjXiyEZy" role="2Oq$k0">
               <node concept="2Sf5sV" id="2EDKjXiyEKo" role="2Oq$k0" />
               <node concept="3Tsc0h" id="2EDKjXiyFoe" role="2OqNvi">
-                <ref role="3TtcxE" to="np8v:4KVaSxxegQW" resolve="children" />
+                <ref role="3TtcxE" to="np8v:1lTng$SvOKU" resolve="lines" />
               </node>
             </node>
             <node concept="2es0OD" id="2EDKjXiyI14" role="2OqNvi">
@@ -397,7 +397,7 @@
               <node concept="2OqwBi" id="2EDKjXimesq" role="2Oq$k0">
                 <node concept="2Sf5sV" id="2EDKjXimesr" role="2Oq$k0" />
                 <node concept="3Tsc0h" id="2EDKjXimess" role="2OqNvi">
-                  <ref role="3TtcxE" to="np8v:4KVaSxxegQW" resolve="children" />
+                  <ref role="3TtcxE" to="np8v:1lTng$SvOKU" resolve="lines" />
                 </node>
               </node>
               <node concept="v3k3i" id="2EDKjXimest" role="2OqNvi">
