@@ -841,6 +841,7 @@
     <property role="EcuMT" value="877377886690097463" />
     <property role="3GE5qa" value="struct.static" />
     <property role="TrG5h" value="StaticAccess" />
+    <property role="34LRSv" value="::" />
     <ref role="1TJDcQ" node="5o0r8SXBR1Q" resolve="Expression" />
     <node concept="1TJgyj" id="KH4CClWATy" role="1TKVEi">
       <property role="IQ2ns" value="877377886690111074" />
