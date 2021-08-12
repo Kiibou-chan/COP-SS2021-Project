@@ -4,9 +4,7 @@
   <languages>
     <use id="4f36d2e1-a7c1-425d-9cb1-cdd2240b18b8" name="SoSeL21" version="0" />
   </languages>
-  <imports>
-    <import index="es6d" ref="r:6d6256ba-1ea7-4de8-803b-0008af269e7f(SoSeL21.runtime.runtime)" />
-  </imports>
+  <imports />
   <registry>
     <language id="4f36d2e1-a7c1-425d-9cb1-cdd2240b18b8" name="SoSeL21">
       <concept id="693107361605104919" name="SoSeL21.structure.FloatLiteral" flags="ng" index="mc5LI">

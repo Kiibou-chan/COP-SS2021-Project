@@ -4,11 +4,9 @@
   <languages>
     <use id="5374e776-6015-4ade-a1c4-a7c2b818cf2f" name="SoSeL21.testing" version="0" />
     <use id="4f36d2e1-a7c1-425d-9cb1-cdd2240b18b8" name="SoSeL21" version="0" />
-    <use id="9d69e719-78c8-4286-90db-fb19c107d049" name="com.mbeddr.mpsutil.grammarcells" version="1" />
   </languages>
   <imports>
     <import index="yhnl" ref="r:2b1e551e-90ac-4611-995d-aae4051f620a(SoSeL21.sandbox.sandbox)" />
-    <import index="778r" ref="r:ef83bd48-c390-43b8-9ad9-1829be7031b2(SoSeL21.editor)" />
   </imports>
   <registry>
     <language id="5374e776-6015-4ade-a1c4-a7c2b818cf2f" name="SoSeL21.testing">
