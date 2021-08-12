@@ -8,6 +8,7 @@
     <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="0" />
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="5" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
+    <use id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging" version="0" />
   </languages>
   <imports>
     <import index="np8v" ref="r:2927e85f-b64b-452e-b756-b84578e173bb(SoSeL21.structure)" />
@@ -63,6 +64,7 @@
       <concept id="1197029447546" name="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation" flags="nn" index="2OwXpG">
         <reference id="1197029500499" name="fieldDeclaration" index="2Oxat5" />
       </concept>
+      <concept id="5763944538902644732" name="jetbrains.mps.baseLanguage.structure.StaticMethodCallOperation" flags="ng" index="2PDubS" />
       <concept id="1145552977093" name="jetbrains.mps.baseLanguage.structure.GenericNewExpression" flags="nn" index="2ShNRf">
         <child id="1145553007750" name="creator" index="2ShVmc" />
       </concept>
@@ -270,6 +272,12 @@
     <language id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem">
       <concept id="1176544042499" name="jetbrains.mps.lang.typesystem.structure.Node_TypeOperation" flags="nn" index="3JvlWi" />
     </language>
+    <language id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging">
+      <concept id="6332851714983831325" name="jetbrains.mps.baseLanguage.logging.structure.MsgStatement" flags="ng" index="2xdQw9">
+        <property id="6332851714983843871" name="severity" index="2xdLsb" />
+        <child id="5721587534047265374" name="message" index="9lYJi" />
+      </concept>
+    </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="4705942098322609812" name="jetbrains.mps.lang.smodel.structure.EnumMember_IsOperation" flags="ng" index="21noJN">
         <child id="4705942098322609813" name="member" index="21noJM" />
@@ -452,6 +460,29 @@
             <property role="TrG5h" value="result" />
             <node concept="3uibUv" id="KH4CClS2H1" role="1tU5fm">
               <ref role="3uigEE" node="KH4CClS1Xu" resolve="InterpreterResult" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="6ZiDeTkapK0" role="3cqZAp" />
+        <node concept="2xdQw9" id="6ZiDeTkas8R" role="3cqZAp">
+          <property role="2xdLsb" value="gZ5frni/trace" />
+          <node concept="3cpWs3" id="6ZiDeTkasOH" role="9lYJi">
+            <node concept="Xl_RD" id="6ZiDeTkas8T" role="3uHU7B" />
+            <node concept="0kSF2" id="6ZiDeTkaZkC" role="3uHU7w">
+              <node concept="3uibUv" id="6ZiDeTkaZkE" role="0kSFW">
+                <ref role="3uigEE" to="2ahs:2yaxsm5jIAm" resolve="CombinedInterpreter" />
+              </node>
+              <node concept="2OqwBi" id="6ZiDeTkaqFL" role="0kSFX">
+                <node concept="37vLTw" id="6ZiDeTkasVz" role="2Oq$k0">
+                  <ref role="3cqZAo" node="77fYV$YndoK" resolve="helper" />
+                </node>
+                <node concept="2PDubS" id="6ZiDeTkaqXP" role="2OqNvi">
+                  <ref role="37wK5l" to="2ahs:50LzNoSyEfI" resolve="getInterpreter" />
+                  <node concept="Xl_RD" id="6ZiDeTkar51" role="37wK5m">
+                    <property role="Xl_RC" value="arithmetic" />
+                  </node>
+                </node>
+              </node>
             </node>
           </node>
         </node>
@@ -654,7 +685,7 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="77fYV$YneeV" role="3cqZAp" />
+        <node concept="3clFbH" id="7Cn1ENSKYi0" role="3cqZAp" />
         <node concept="3cpWs6" id="77fYV$Ynh4T" role="3cqZAp">
           <node concept="37vLTw" id="77fYV$Ynh70" role="3cqZAk">
             <ref role="3cqZAo" node="77fYV$YndNI" resolve="result" />

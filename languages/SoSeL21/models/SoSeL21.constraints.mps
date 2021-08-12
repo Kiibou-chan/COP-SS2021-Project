@@ -292,7 +292,7 @@
             <node concept="nLn13" id="3urAszXXuT5" role="2Oq$k0" />
             <node concept="1mIQ4w" id="3urAszXXvg2" role="2OqNvi">
               <node concept="chp4Y" id="3urAszXXvlZ" role="cj9EA">
-                <ref role="cht4Q" to="np8v:3K_CYPEeOs6" resolve="Struct" />
+                <ref role="cht4Q" to="np8v:3K_CYPEeOs6" resolve="StructDefinition" />
               </node>
             </node>
           </node>

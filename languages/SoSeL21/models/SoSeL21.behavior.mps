@@ -849,6 +849,13 @@
   <node concept="Qs71p" id="5gm70GMGtXn">
     <property role="3GE5qa" value="expr" />
     <property role="TrG5h" value="BinaryExpressionPrecedence" />
+    <node concept="QsSxf" id="3Ub42UFBTBW" role="Qtgdg">
+      <property role="TrG5h" value="DOT" />
+      <ref role="37wK5l" node="5gm70GMGusd" resolve="BinaryExpressionPrecedence" />
+      <node concept="3cmrfG" id="3Ub42UFBU2L" role="37wK5m">
+        <property role="3cmrfH" value="8" />
+      </node>
+    </node>
     <node concept="QsSxf" id="Auqn$vEgUA" role="Qtgdg">
       <property role="TrG5h" value="POWER" />
       <ref role="37wK5l" node="5gm70GMGusd" resolve="BinaryExpressionPrecedence" />
@@ -1935,7 +1942,7 @@
   </node>
   <node concept="13h7C7" id="FevvnPUX18">
     <property role="3GE5qa" value="struct" />
-    <ref role="13h7C2" to="np8v:3K_CYPEeOs6" resolve="Struct" />
+    <ref role="13h7C2" to="np8v:3K_CYPEeOs6" resolve="StructDefinition" />
     <node concept="13i0hz" id="FevvnPUX1j" role="13h7CS">
       <property role="TrG5h" value="getMethods" />
       <node concept="3Tm1VV" id="FevvnPUX1k" role="1B3o_S" />
