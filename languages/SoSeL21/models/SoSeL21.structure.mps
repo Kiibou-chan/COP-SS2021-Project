@@ -33,8 +33,15 @@
       <concept id="3348158742936976479" name="jetbrains.mps.lang.structure.structure.EnumerationDeclaration" flags="ng" index="25R3W">
         <child id="3348158742936976577" name="members" index="25R1y" />
       </concept>
+      <concept id="6054523464627964745" name="jetbrains.mps.lang.structure.structure.AttributeInfo_AttributedConcept" flags="ng" index="trNpa">
+        <reference id="6054523464627965081" name="concept" index="trN6q" />
+      </concept>
       <concept id="1082978164218" name="jetbrains.mps.lang.structure.structure.DataTypeDeclaration" flags="ng" index="AxPO6">
         <property id="7791109065626895363" name="datatypeId" index="3F6X1D" />
+      </concept>
+      <concept id="2992811758677295509" name="jetbrains.mps.lang.structure.structure.AttributeInfo" flags="ng" index="M6xJ_">
+        <property id="7588428831955550663" name="role" index="Hh88m" />
+        <child id="7588428831947959310" name="attributed" index="EQaZv" />
       </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
@@ -70,6 +77,7 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
@@ -350,6 +358,9 @@
   <node concept="PlHQZ" id="6ABi0sWFVmu">
     <property role="EcuMT" value="7613132891013232030" />
     <property role="TrG5h" value="IEvaluate" />
+    <node concept="PrWs8" id="2jcdRgZElZ1" role="PrDN$">
+      <ref role="PrY4T" node="77fYV$YdvM3" resolve="ILineContent" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6ABi0sWNy_Y">
     <property role="EcuMT" value="7613132891015227774" />
@@ -1041,19 +1052,15 @@
   <node concept="1TIwiD" id="2jcdRgZp7V4">
     <property role="EcuMT" value="2651555253033664196" />
     <property role="TrG5h" value="InterpreterLine" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="2jcdRgZp7V5" role="1TKVEi">
-      <property role="IQ2ns" value="2651555253033664197" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="line" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="77fYV$YdvM3" resolve="ILineContent" />
-    </node>
+    <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
     <node concept="PrWs8" id="2jcdRgZp7V7" role="PzmwI">
       <ref role="PrY4T" node="77fYV$YdvM3" resolve="ILineContent" />
     </node>
-    <node concept="PrWs8" id="2jcdRgZrhX1" role="PzmwI">
-      <ref role="PrY4T" to="tpck:hLJPP0O" resolve="IWrapper" />
+    <node concept="M6xJ_" id="2jcdRgZBVOJ" role="lGtFl">
+      <property role="Hh88m" value="eval" />
+      <node concept="trNpa" id="2jcdRgZBVOL" role="EQaZv">
+        <ref role="trN6q" node="77fYV$YdvM3" resolve="ILineContent" />
+      </node>
     </node>
   </node>
 </model>

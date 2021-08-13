@@ -60,6 +60,7 @@
       <concept id="1078939183254" name="jetbrains.mps.lang.editor.structure.CellModel_Component" flags="sg" stub="3162947552742194261" index="PMmxH">
         <reference id="1078939183255" name="editorComponent" index="PMmxG" />
       </concept>
+      <concept id="1149850725784" name="jetbrains.mps.lang.editor.structure.CellModel_AttributedNodeCell" flags="ng" index="2SsqMj" />
       <concept id="1186402211651" name="jetbrains.mps.lang.editor.structure.StyleSheet" flags="ng" index="V5hpn">
         <child id="1186402402630" name="styles" index="V601i" />
       </concept>
@@ -1731,9 +1732,7 @@
     <ref role="1XX52x" to="np8v:2jcdRgZp7V4" resolve="InterpreterLine" />
     <node concept="3EZMnI" id="2jcdRgZp8yB" role="2wV5jI">
       <node concept="l2Vlx" id="2jcdRgZp8yC" role="2iSdaV" />
-      <node concept="3F1sOY" id="2jcdRgZp8yH" role="3EZMnx">
-        <ref role="1NtTu8" to="np8v:2jcdRgZp7V5" resolve="line" />
-      </node>
+      <node concept="2SsqMj" id="2jcdRgZBX63" role="3EZMnx" />
       <node concept="1HlG4h" id="2jcdRgZp8yN" role="3EZMnx">
         <ref role="1k5W1q" node="20NT15FLd4U" resolve="InlineHint" />
         <node concept="1HfYo3" id="2jcdRgZp8yP" role="1HlULh">
@@ -1748,9 +1747,7 @@
                         <ref role="1Pybhc" to="7n84:QPVTv2P9on" resolve="EvalHelper" />
                         <node concept="2OqwBi" id="2jcdRgZp9sI" role="37wK5m">
                           <node concept="pncrf" id="2jcdRgZp9a6" role="2Oq$k0" />
-                          <node concept="3TrEf2" id="2jcdRgZp9Ei" role="2OqNvi">
-                            <ref role="3Tt5mk" to="np8v:2jcdRgZp7V5" resolve="line" />
-                          </node>
+                          <node concept="1mfA1w" id="2jcdRgZC4DK" role="2OqNvi" />
                         </node>
                       </node>
                       <node concept="2OwXpG" id="2jcdRgZpada" role="2OqNvi">
@@ -1786,7 +1783,10 @@
                     <node concept="2YIFZM" id="2jcdRgZpaH8" role="2Oq$k0">
                       <ref role="37wK5l" to="7n84:77fYV$YndsK" resolve="eval" />
                       <ref role="1Pybhc" to="7n84:QPVTv2P9on" resolve="EvalHelper" />
-                      <node concept="pncrf" id="2jcdRgZpaLA" role="37wK5m" />
+                      <node concept="2OqwBi" id="2jcdRgZC573" role="37wK5m">
+                        <node concept="pncrf" id="2jcdRgZpaLA" role="2Oq$k0" />
+                        <node concept="1mfA1w" id="2jcdRgZC5jo" role="2OqNvi" />
+                      </node>
                     </node>
                     <node concept="2OwXpG" id="2jcdRgZpbmg" role="2OqNvi">
                       <ref role="2Oxat5" to="7n84:KH4CClS20I" resolve="error" />
