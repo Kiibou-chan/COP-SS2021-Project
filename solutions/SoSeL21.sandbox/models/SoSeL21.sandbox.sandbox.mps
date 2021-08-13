@@ -79,6 +79,7 @@
       <concept id="5597066239011814237" name="SoSeL21.structure.Eval" flags="ng" index="1d3rPa">
         <child id="5597066239011814240" name="expression" index="1d3rPR" />
       </concept>
+      <concept id="5597066239014403507" name="SoSeL21.structure.NullExpression" flags="ng" index="1dp3I$" />
       <concept id="7613132891010353812" name="SoSeL21.structure.LessThanOrEqualsExpression" flags="ng" index="1l98aj" />
       <concept id="7613132891010969501" name="SoSeL21.structure.NotEqualsExpression" flags="ng" index="1laAuq" />
       <concept id="7613132891011284579" name="SoSeL21.structure.LessThanExpression" flags="ng" index="1ldFp$" />
@@ -1879,6 +1880,38 @@
       </node>
       <node concept="1FEkYV" id="3K_CYPEbIRZ" role="36_Bp7">
         <ref role="1FEkZa" node="3K_CYPE7HRQ" resolve="mutx" />
+      </node>
+    </node>
+  </node>
+  <node concept="H0yoZ" id="4QGLxs0OnRd">
+    <property role="TrG5h" value="Null" />
+    <node concept="1m7IjF" id="4QGLxs0OnRD" role="H1x4N">
+      <property role="TrG5h" value="IntList" />
+      <node concept="1mpvbt" id="4QGLxs0OnRN" role="1mpvag">
+        <property role="TrG5h" value="data" />
+        <node concept="1_CC7h" id="4QGLxs0OnRV" role="1mpvbk" />
+      </node>
+      <node concept="1mpvbt" id="4QGLxs0OnS0" role="1mpvag">
+        <property role="TrG5h" value="next" />
+        <node concept="39FQy0" id="4QGLxs0OnSc" role="1mpvbk">
+          <ref role="39FQxb" node="4QGLxs0OnRD" resolve="IntList" />
+        </node>
+      </node>
+    </node>
+    <node concept="1ZSnvI" id="4QGLxs0OnSh" role="H1x4N" />
+    <node concept="39FQIZ" id="4QGLxs0OnSY" role="H1x4N">
+      <node concept="3bn0hy" id="4QGLxs0OnSE" role="3bn0hu">
+        <ref role="3bn0h_" node="4QGLxs0OnRD" resolve="IntList" />
+      </node>
+      <node concept="39FQGg" id="4QGLxs0OnT0" role="39FQEu">
+        <ref role="39FQGj" node="4QGLxs0OnRN" resolve="data" />
+        <node concept="uh0c$" id="4QGLxs0OnTt" role="39FQGh">
+          <property role="uq72F" value="2" />
+        </node>
+      </node>
+      <node concept="39FQGg" id="4QGLxs0OnT1" role="39FQEu">
+        <ref role="39FQGj" node="4QGLxs0OnS0" resolve="next" />
+        <node concept="1dp3I$" id="4QGLxs0RdKh" role="39FQGh" />
       </node>
     </node>
   </node>
