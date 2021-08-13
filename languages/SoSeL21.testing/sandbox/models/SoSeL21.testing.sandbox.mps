@@ -29,7 +29,6 @@
       <concept id="385486883072607587" name="SoSeL21.structure.IntegerLiteral" flags="ng" index="uh0c$">
         <property id="385486883073947372" name="value" index="uq72F" />
       </concept>
-      <concept id="8420719710538617386" name="SoSeL21.structure.LineInterpreter" flags="ng" index="1f5bns" />
       <concept id="6197072445436871923" name="SoSeL21.structure.AddExpression" flags="ng" index="1FC2xX" />
       <concept id="6197072445437612433" name="SoSeL21.structure.BinaryExpression" flags="ng" index="1FEZOv">
         <child id="6197072445437612443" name="right" index="1FEZOl" />
@@ -52,24 +51,19 @@
       <property role="TrG5h" value="t1" />
       <node concept="36RUoo" id="7jspZoVFZ74" role="36RU6p">
         <node concept="1FC2xX" id="7Cn1ENSI2OI" role="36RUtr">
-          <node concept="1f5bns" id="7Cn1ENSI2OJ" role="lGtFl" />
           <node concept="uh0c$" id="7Cn1ENSI2Pq" role="1FEZOl">
             <property role="uq72F" value="2" />
-            <node concept="1f5bns" id="7Cn1ENSI2Pr" role="lGtFl" />
           </node>
           <node concept="uh0c$" id="7jspZoVFZ7d" role="1FEZOn">
             <property role="uq72F" value="2" />
-            <node concept="1f5bns" id="3nlsSKV0QDA" role="lGtFl" />
           </node>
         </node>
         <node concept="uh0c$" id="7jspZoVFZ7n" role="36RUtl">
           <property role="uq72F" value="2" />
-          <node concept="1f5bns" id="3nlsSKV0QDB" role="lGtFl" />
         </node>
         <node concept="1fifne" id="7jspZoVG3Cj" role="lGtFl">
           <property role="1fifmR" value="7jspZoV_98X/success" />
         </node>
-        <node concept="1f5bns" id="3nlsSKV0QD$" role="lGtFl" />
       </node>
     </node>
     <node concept="36Rxq1" id="7jspZoVFZ66" role="36Rxq4">
@@ -77,16 +71,13 @@
       <node concept="36RUoo" id="7jspZoVFZ8h" role="36RU6p">
         <node concept="uh0c$" id="7jspZoVFZ8t" role="36RUtr">
           <property role="uq72F" value="1" />
-          <node concept="1f5bns" id="3nlsSKV0QDC" role="lGtFl" />
         </node>
         <node concept="uh0c$" id="7jspZoVFZ8B" role="36RUtl">
           <property role="uq72F" value="2" />
-          <node concept="1f5bns" id="3nlsSKV0QDD" role="lGtFl" />
         </node>
         <node concept="1fifne" id="7jspZoVG3Ck" role="lGtFl">
           <property role="1fifmR" value="7jspZoV_98Z/failure" />
         </node>
-        <node concept="1f5bns" id="3nlsSKV0QD_" role="lGtFl" />
       </node>
     </node>
   </node>

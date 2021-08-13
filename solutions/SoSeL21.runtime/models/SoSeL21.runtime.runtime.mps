@@ -11,14 +11,9 @@
       <concept id="1547370241162431543" name="SoSeL21.structure.IHasBody" flags="ng" index="H1x4Y">
         <child id="1547370241162431546" name="lines" index="H1x4N" />
       </concept>
-      <concept id="8420719710538617386" name="SoSeL21.structure.LineInterpreter" flags="ng" index="1f5bns" />
-      <concept id="4334050456498816774" name="SoSeL21.structure.Struct" flags="ng" index="1m7IjF" />
-      <concept id="3074200698365668794" name="SoSeL21.structure.WorksheetInterpreter" flags="ng" index="1SZyM5" />
+      <concept id="4334050456498816774" name="SoSeL21.structure.StructDefinition" flags="ng" index="1m7IjF" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
-        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
-      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -28,9 +23,7 @@
     <property role="TrG5h" value="Base" />
     <node concept="1m7IjF" id="5UHxYNLn1Po" role="H1x4N">
       <property role="TrG5h" value="Any" />
-      <node concept="1f5bns" id="3nlsSKV0QDE" role="lGtFl" />
     </node>
-    <node concept="1SZyM5" id="3nlsSKUZmz5" role="lGtFl" />
   </node>
 </model>
 
