@@ -29,6 +29,11 @@
       <concept id="385486883072607587" name="SoSeL21.structure.IntegerLiteral" flags="ng" index="uh0c$">
         <property id="385486883073947372" name="value" index="uq72F" />
       </concept>
+      <concept id="6197072445436871923" name="SoSeL21.structure.AddExpression" flags="ng" index="1FC2xX" />
+      <concept id="6197072445437612433" name="SoSeL21.structure.BinaryExpression" flags="ng" index="1FEZOv">
+        <child id="6197072445437612443" name="right" index="1FEZOl" />
+        <child id="6197072445437612441" name="left" index="1FEZOn" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
@@ -45,14 +50,19 @@
     <node concept="36Rxq1" id="5O48DErR0AL" role="36Rxq4">
       <property role="TrG5h" value="t1" />
       <node concept="36RUoo" id="7jspZoVFZ74" role="36RU6p">
-        <node concept="uh0c$" id="7jspZoVFZ7d" role="36RUtr">
-          <property role="uq72F" value="2" />
+        <node concept="1FC2xX" id="1Cij$gA8GDz" role="36RUtr">
+          <node concept="uh0c$" id="1Cij$gA8GDQ" role="1FEZOl">
+            <property role="uq72F" value="2" />
+          </node>
+          <node concept="uh0c$" id="7jspZoVFZ7d" role="1FEZOn">
+            <property role="uq72F" value="2" />
+          </node>
         </node>
         <node concept="uh0c$" id="7jspZoVFZ7n" role="36RUtl">
-          <property role="uq72F" value="2" />
+          <property role="uq72F" value="4" />
         </node>
         <node concept="1fifne" id="7jspZoVG3Cj" role="lGtFl">
-          <property role="1fifmR" value="7jspZoV_98Y/none" />
+          <property role="1fifmR" value="7jspZoV_98X/success" />
         </node>
       </node>
     </node>
@@ -66,7 +76,7 @@
           <property role="uq72F" value="2" />
         </node>
         <node concept="1fifne" id="7jspZoVG3Ck" role="lGtFl">
-          <property role="1fifmR" value="7jspZoV_98Y/none" />
+          <property role="1fifmR" value="7jspZoV_98Z/failure" />
         </node>
       </node>
     </node>
