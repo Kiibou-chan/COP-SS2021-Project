@@ -2413,7 +2413,6 @@
       </node>
     </node>
     <node concept="qq9P1" id="5o0r8SXH2Md" role="qq9xR">
-      <property role="2TnfIJ" value="true" />
       <ref role="qq9wM" to="np8v:lpx$sr7olz" resolve="IntegerLiteral" />
       <node concept="3vetai" id="3urAszYjciq" role="3vQZUl">
         <node concept="2YIFZM" id="5o0r8SXH7vL" role="3vdyny">
