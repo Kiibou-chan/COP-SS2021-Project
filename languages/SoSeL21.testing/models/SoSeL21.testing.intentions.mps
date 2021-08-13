@@ -6,7 +6,7 @@
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="5fn2" ref="r:dd86c9ac-51ec-48cd-9e05-fd73023a1d7c(SoSeL21.interpreter.plugin)" />
+    <import index="7n84" ref="r:140e92bb-0155-4a10-a708-0234dd583ccb(SoSeL21.interpreter2.plugin)" />
     <import index="g2me" ref="r:c718eb2e-4bdd-46ff-9445-9a565d05d0c1(SoSeL21.testing.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
@@ -105,8 +105,8 @@
       <node concept="3clFbS" id="7jspZoV_Qzo" role="2VODD2">
         <node concept="3clFbF" id="7jspZoV_QI4" role="3cqZAp">
           <node concept="2YIFZM" id="7jspZoV_QNA" role="3clFbG">
-            <ref role="37wK5l" to="5fn2:77fYV$YndsK" resolve="eval" />
-            <ref role="1Pybhc" to="5fn2:77fYV$YnbbY" resolve="EvalHelper" />
+            <ref role="1Pybhc" to="7n84:QPVTv2P9on" resolve="EvalHelper" />
+            <ref role="37wK5l" to="7n84:77fYV$YndsK" resolve="eval" />
             <node concept="2Sf5sV" id="7jspZoV_QO4" role="37wK5m" />
           </node>
         </node>
@@ -149,8 +149,8 @@
           <node concept="3clFbS" id="7jspZoVFXvH" role="2LFqv$">
             <node concept="3clFbF" id="7jspZoVFXN1" role="3cqZAp">
               <node concept="2YIFZM" id="7jspZoVFXNF" role="3clFbG">
-                <ref role="37wK5l" to="5fn2:77fYV$YndsK" resolve="eval" />
-                <ref role="1Pybhc" to="5fn2:77fYV$YnbbY" resolve="EvalHelper" />
+                <ref role="1Pybhc" to="7n84:QPVTv2P9on" resolve="EvalHelper" />
+                <ref role="37wK5l" to="7n84:77fYV$YndsK" resolve="eval" />
                 <node concept="2GrUjf" id="7jspZoVFXO7" role="37wK5m">
                   <ref role="2Gs0qQ" node="7jspZoVFXvF" resolve="test" />
                 </node>

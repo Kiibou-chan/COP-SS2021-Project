@@ -6,7 +6,7 @@
       <modulePath path="$PROJECT_DIR$/languages/SoSeL21.testing/runtime/SoSeL21.testing.runtime.msd" folder="testing" />
       <modulePath path="$PROJECT_DIR$/languages/SoSeL21.testing/sandbox/SoSeL21.testing.sandbox.msd" folder="testing" />
       <modulePath path="$PROJECT_DIR$/languages/SoSeL21/SoSeL21.mpl" folder="main" />
-      <modulePath path="$PROJECT_DIR$/solutions/SoSeL21.interpreter/SoSeL21.interpreter.msd" folder="main" />
+      <modulePath path="$PROJECT_DIR$/solutions/SoSeL21.interpreter2/SoSeL21.interpreter2.msd" folder="main" />
       <modulePath path="$PROJECT_DIR$/solutions/SoSeL21.runtime/SoSeL21.runtime.msd" folder="main" />
       <modulePath path="$PROJECT_DIR$/solutions/SoSeL21.sandbox/SoSeL21.sandbox.msd" folder="main" />
       <modulePath path="$PROJECT_DIR$/solutions/SoSeL21.testing.interpreter/SoSeL21.testing.interpreter.msd" folder="testing" />

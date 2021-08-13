@@ -69,11 +69,11 @@
   <dependencies>
     <dependency reexport="false">2d3c70e9-aab2-4870-8d8d-6036800e4103(jetbrains.mps.kernel)</dependency>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
-    <dependency reexport="false">454a587b-3a00-47f7-a2ef-c4718a2bd611(SoSeL21.interpreter)</dependency>
     <dependency reexport="false">7a5dda62-9140-4668-ab76-d5ed1746f2b2(jetbrains.mps.lang.typesystem)</dependency>
     <dependency reexport="false">86ef8290-12bb-4ca7-947f-093788f263a9(jetbrains.mps.lang.project)</dependency>
     <dependency reexport="false">f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</dependency>
     <dependency reexport="false">c8d99e51-2fd8-45c6-ae0c-99e54a0cf517(SoSeL21.runtime)</dependency>
+    <dependency reexport="false">1a999d65-3f03-4ae1-96a8-78adc388e5e5(SoSeL21.interpreter2)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:9d69e719-78c8-4286-90db-fb19c107d049:com.mbeddr.mpsutil.grammarcells" version="1" />
@@ -131,6 +131,7 @@
     <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
     <module reference="4f36d2e1-a7c1-425d-9cb1-cdd2240b18b8(SoSeL21)" version="0" />
     <module reference="454a587b-3a00-47f7-a2ef-c4718a2bd611(SoSeL21.interpreter)" version="0" />
+    <module reference="1a999d65-3f03-4ae1-96a8-78adc388e5e5(SoSeL21.interpreter2)" version="0" />
     <module reference="c8d99e51-2fd8-45c6-ae0c-99e54a0cf517(SoSeL21.runtime)" version="0" />
     <module reference="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" version="0" />
     <module reference="fd392034-7849-419d-9071-12563d152375(jetbrains.mps.baseLanguage.closures)" version="0" />

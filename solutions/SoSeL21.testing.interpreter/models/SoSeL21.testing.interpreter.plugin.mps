@@ -9,9 +9,9 @@
     <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="4" />
   </languages>
   <imports>
-    <import index="5fn2" ref="r:dd86c9ac-51ec-48cd-9e05-fd73023a1d7c(SoSeL21.interpreter.plugin)" />
     <import index="g2me" ref="r:c718eb2e-4bdd-46ff-9445-9a565d05d0c1(SoSeL21.testing.structure)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
+    <import index="7n84" ref="r:140e92bb-0155-4a10-a708-0234dd583ccb(SoSeL21.interpreter2.plugin)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
@@ -152,9 +152,9 @@
   <node concept="2DaZZR" id="7jspZoV$QCX" />
   <node concept="qq9qg" id="7jspZoV$QCZ">
     <property role="TrG5h" value="TestsheetInterpreter" />
-    <property role="UYu25" value="arithmetic" />
+    <property role="UYu25" value="ari" />
     <node concept="1J7L1T" id="7jspZoV$Us7" role="1J4apk">
-      <ref role="1J7WVQ" to="5fn2:5o0r8SXH1cB" resolve="WorksheetInterpreter" />
+      <ref role="1J7WVQ" to="7n84:QPVTv2P8ya" resolve="MainInterpreter" />
     </node>
     <node concept="qq9P1" id="7jspZoV_8aU" role="qq9xR">
       <property role="2TnfIJ" value="true" />
