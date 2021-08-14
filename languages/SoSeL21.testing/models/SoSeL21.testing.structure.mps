@@ -90,6 +90,9 @@
     <node concept="PrWs8" id="5O48DErQwwc" role="PzmwI">
       <ref role="PrY4T" to="np8v:2rBLDn4TajT" resolve="IConstrainedNameConcept" />
     </node>
+    <node concept="PrWs8" id="1XiRvN7FSoy" role="PzmwI">
+      <ref role="PrY4T" to="np8v:5FqyMEqsj2N" resolve="IFunctionScopeProvider" />
+    </node>
     <node concept="1TJgyj" id="5O48DErQzgu" role="1TKVEi">
       <property role="IQ2ns" value="6702520192869217310" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -126,12 +129,8 @@
     <node concept="PrWs8" id="5O48DErR0AO" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
-    <node concept="1TJgyj" id="5O48DErQSc3" role="1TKVEi">
-      <property role="IQ2ns" value="6702520192869303043" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="lines" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" to="np8v:77fYV$YdvM3" resolve="ILineContent" />
+    <node concept="PrWs8" id="1XiRvN7GdDm" role="PzmwI">
+      <ref role="PrY4T" to="np8v:1lTng$Swj6r" resolve="IHasBody" />
     </node>
   </node>
   <node concept="1TIwiD" id="5O48DErQSi2">
@@ -190,6 +189,36 @@
     <node concept="25R33" id="7jspZoV_98Z" role="25R1y">
       <property role="3tVfz5" value="8420719710535193151" />
       <property role="TrG5h" value="failure" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2nhpO1lX_bM">
+    <property role="EcuMT" value="2725072775553635058" />
+    <property role="TrG5h" value="TestErrors" />
+    <property role="3GE5qa" value="attr" />
+    <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
+    <node concept="M6xJ_" id="2nhpO1lX_bQ" role="lGtFl">
+      <property role="Hh88m" value="errors" />
+      <node concept="trNpa" id="2nhpO1lX_bS" role="EQaZv">
+        <ref role="trN6q" node="5O48DErQzgr" resolve="Test" />
+      </node>
+    </node>
+    <node concept="1TJgyj" id="2nhpO1lX_bU" role="1TKVEi">
+      <property role="IQ2ns" value="2725072775553635066" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="lines" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="2nhpO1lX_bN" resolve="ErrorLine" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2nhpO1lX_bN">
+    <property role="EcuMT" value="2725072775553635059" />
+    <property role="3GE5qa" value="attr" />
+    <property role="TrG5h" value="ErrorLine" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="2nhpO1lX_bO" role="1TKVEl">
+      <property role="IQ2nx" value="2725072775553635060" />
+      <property role="TrG5h" value="text" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
 </model>
