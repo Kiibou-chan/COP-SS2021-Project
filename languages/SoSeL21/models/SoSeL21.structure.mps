@@ -99,6 +99,9 @@
     <node concept="PrWs8" id="5UHxYNLd1u2" role="PzmwI">
       <ref role="PrY4T" node="1lTng$Swj6r" resolve="IHasBody" />
     </node>
+    <node concept="PrWs8" id="5FqyMEqsmJK" role="PzmwI">
+      <ref role="PrY4T" node="5FqyMEqsj2N" resolve="IFunctionScopeProvider" />
+    </node>
     <node concept="1irR5M" id="2jcdRgZn9Yp" role="rwd14">
       <property role="2$rrk2" value="1" />
       <node concept="1irR9n" id="2jcdRgZn9Yz" role="1irR9h">
@@ -133,7 +136,7 @@
     <property role="34LRSv" value="let" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="4j_Xt475EU8" role="PzmwI">
-      <ref role="PrY4T" node="4j_Xt475ETZ" resolve="IReferenceTarget" />
+      <ref role="PrY4T" node="4j_Xt475ETZ" resolve="IVariableReferenceTarget" />
     </node>
     <node concept="PrWs8" id="77fYV$YdvTT" role="PzmwI">
       <ref role="PrY4T" node="77fYV$YdvM3" resolve="ILineContent" />
@@ -220,7 +223,7 @@
       <property role="IQ2ns" value="6197072445437453124" />
       <property role="20kJfa" value="ref" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="4j_Xt475ETZ" resolve="IReferenceTarget" />
+      <ref role="20lvS9" node="4j_Xt475ETZ" resolve="IVariableReferenceTarget" />
     </node>
   </node>
   <node concept="1TIwiD" id="5o0r8SXET6h">
@@ -381,7 +384,7 @@
   </node>
   <node concept="PlHQZ" id="4j_Xt475ETZ">
     <property role="EcuMT" value="4964644442361736831" />
-    <property role="TrG5h" value="IReferenceTarget" />
+    <property role="TrG5h" value="IVariableReferenceTarget" />
     <node concept="PrWs8" id="2rBLDn4T$PZ" role="PrDN$">
       <ref role="PrY4T" node="2rBLDn4TajT" resolve="IConstrainedNameConcept" />
     </node>
@@ -502,7 +505,7 @@
     <property role="TrG5h" value="LoopVariable" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="1yu7ZLu9$sY" role="PzmwI">
-      <ref role="PrY4T" node="4j_Xt475ETZ" resolve="IReferenceTarget" />
+      <ref role="PrY4T" node="4j_Xt475ETZ" resolve="IVariableReferenceTarget" />
     </node>
   </node>
   <node concept="1TIwiD" id="4L4QcmaN6eT">
@@ -753,7 +756,7 @@
       <ref role="20lvS9" node="3dga67SFtku" resolve="IType" />
     </node>
     <node concept="PrWs8" id="4j_Xt475EUd" role="PzmwI">
-      <ref role="PrY4T" node="4j_Xt475ETZ" resolve="IReferenceTarget" />
+      <ref role="PrY4T" node="4j_Xt475ETZ" resolve="IVariableReferenceTarget" />
     </node>
   </node>
   <node concept="1TIwiD" id="4j_Xt479n1m">
@@ -807,9 +810,6 @@
     </node>
     <node concept="PrWs8" id="FevvnPt3mA" role="PzmwI">
       <ref role="PrY4T" node="77fYV$YdvM3" resolve="ILineContent" />
-    </node>
-    <node concept="PrWs8" id="2jcdRgZzq6_" role="PzmwI">
-      <ref role="PrY4T" node="4j_Xt475ETZ" resolve="IReferenceTarget" />
     </node>
   </node>
   <node concept="PlHQZ" id="FevvnPSq1E">
@@ -1053,15 +1053,17 @@
     <property role="EcuMT" value="2651555253033664196" />
     <property role="TrG5h" value="InterpreterLine" />
     <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
-    <node concept="PrWs8" id="2jcdRgZp7V7" role="PzmwI">
-      <ref role="PrY4T" node="77fYV$YdvM3" resolve="ILineContent" />
-    </node>
     <node concept="M6xJ_" id="2jcdRgZBVOJ" role="lGtFl">
       <property role="Hh88m" value="eval" />
       <node concept="trNpa" id="2jcdRgZBVOL" role="EQaZv">
         <ref role="trN6q" node="77fYV$YdvM3" resolve="ILineContent" />
       </node>
     </node>
+  </node>
+  <node concept="PlHQZ" id="5FqyMEqsj2N">
+    <property role="EcuMT" value="6546698023432433843" />
+    <property role="3GE5qa" value="function" />
+    <property role="TrG5h" value="IFunctionScopeProvider" />
   </node>
 </model>
 

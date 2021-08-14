@@ -1419,7 +1419,7 @@
         <node concept="3cpWsn" id="3K_CYPEc4t4" role="3cpWs9">
           <property role="TrG5h" value="ref" />
           <node concept="3Tqbb2" id="3K_CYPEc4sZ" role="1tU5fm">
-            <ref role="ehGHo" to="np8v:4j_Xt475ETZ" resolve="IReferenceTarget" />
+            <ref role="ehGHo" to="np8v:4j_Xt475ETZ" resolve="IVariableReferenceTarget" />
           </node>
           <node concept="2OqwBi" id="3K_CYPEc5sk" role="33vP2m">
             <node concept="2OqwBi" id="3K_CYPEc4GI" role="2Oq$k0">

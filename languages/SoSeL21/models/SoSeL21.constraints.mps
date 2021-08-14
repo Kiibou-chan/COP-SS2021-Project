@@ -13,14 +13,15 @@
     <use id="ad93155d-79b2-4759-b10c-55123e763903" name="jetbrains.mps.lang.messages" version="0" />
     <use id="daafa647-f1f7-4b0b-b096-69cd7c8408c0" name="jetbrains.mps.baseLanguage.regexp" version="0" />
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="5" />
+    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="2" />
     <devkit ref="00000000-0000-4000-0000-5604ebd4f22c(jetbrains.mps.devkit.aspect.constraints)" />
   </languages>
   <imports>
     <import index="o8zo" ref="r:314576fc-3aee-4386-a0a5-a38348ac317d(jetbrains.mps.scope)" />
     <import index="np8v" ref="r:2927e85f-b64b-452e-b756-b84578e173bb(SoSeL21.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+    <import index="cdig" ref="r:ed277861-941e-403c-b5ee-be56e52cd463(SoSeL21.behavior)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
-    <import index="cdig" ref="r:ed277861-941e-403c-b5ee-be56e52cd463(SoSeL21.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -89,15 +90,11 @@
         <reference id="8401916545537438643" name="kind" index="1dDu$A" />
       </concept>
       <concept id="1163200647017" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_referenceNode" flags="nn" index="3kakTB" />
-      <concept id="1159285995602" name="jetbrains.mps.lang.constraints.structure.NodeDefaultSearchScope" flags="ng" index="3EP7_v">
-        <child id="1159286114227" name="searchScopeFactory" index="3EP$qY" />
-      </concept>
       <concept id="1213093968558" name="jetbrains.mps.lang.constraints.structure.ConceptConstraints" flags="ng" index="1M2fIO">
         <reference id="1213093996982" name="concept" index="1M2myG" />
         <child id="6702802731807737306" name="canBeChild" index="9Vyp8" />
         <child id="1213098023997" name="property" index="1MhHOB" />
         <child id="1213100494875" name="referent" index="1Mr941" />
-        <child id="1213101058038" name="defaultScope" index="1MtirG" />
       </concept>
       <concept id="1148687176410" name="jetbrains.mps.lang.constraints.structure.NodeReferentConstraint" flags="ng" index="1N5Pfh">
         <reference id="1148687202698" name="applicableLink" index="1N5Vy1" />
@@ -218,11 +215,6 @@
   </node>
   <node concept="1M2fIO" id="5o0r8SXCre$">
     <ref role="1M2myG" to="np8v:lpx$sr6McP" resolve="VariableDeclaration" />
-    <node concept="3EP7_v" id="4j_Xt472tUK" role="1MtirG">
-      <node concept="1dDu$B" id="4j_Xt472tUR" role="3EP$qY">
-        <ref role="1dDu$A" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
-      </node>
-    </node>
   </node>
   <node concept="1M2fIO" id="4j_Xt46Yx34">
     <property role="3GE5qa" value="expr" />
@@ -230,7 +222,7 @@
     <node concept="1N5Pfh" id="4j_Xt472azm" role="1Mr941">
       <ref role="1N5Vy1" to="np8v:5o0r8SXEid4" resolve="ref" />
       <node concept="1dDu$B" id="4j_Xt472azo" role="1N6uqs">
-        <ref role="1dDu$A" to="np8v:4j_Xt475ETZ" resolve="IReferenceTarget" />
+        <ref role="1dDu$A" to="np8v:4j_Xt475ETZ" resolve="IVariableReferenceTarget" />
       </node>
     </node>
   </node>
@@ -619,6 +611,28 @@
     <ref role="1M2myG" to="np8v:4j_Xt479n1m" resolve="FunctionCall" />
     <node concept="1N5Pfh" id="4gA30fJMixS" role="1Mr941">
       <ref role="1N5Vy1" to="np8v:KH4CClFdVO" resolve="function" />
+      <node concept="3dgokm" id="1XiRvN7Fobb" role="1N6uqs">
+        <node concept="3clFbS" id="1XiRvN7Fobc" role="2VODD2">
+          <node concept="3cpWs6" id="5FqyMEqpT1o" role="3cqZAp">
+            <node concept="2OqwBi" id="5FqyMEqsqYx" role="3cqZAk">
+              <node concept="2OqwBi" id="5FqyMEqsp_J" role="2Oq$k0">
+                <node concept="2Xjw5R" id="5FqyMEqsqbG" role="2OqNvi">
+                  <node concept="1xMEDy" id="5FqyMEqsqbI" role="1xVPHs">
+                    <node concept="chp4Y" id="5FqyMEqsqwT" role="ri$Ld">
+                      <ref role="cht4Q" to="np8v:5FqyMEqsj2N" resolve="IFunctionScopeProvider" />
+                    </node>
+                  </node>
+                  <node concept="1xIGOp" id="5FqyMEqtb6R" role="1xVPHs" />
+                </node>
+                <node concept="2rP1CM" id="1XiRvN7Foyc" role="2Oq$k0" />
+              </node>
+              <node concept="2qgKlT" id="5FqyMEqsrsQ" role="2OqNvi">
+                <ref role="37wK5l" to="cdig:5FqyMEqsj3p" resolve="getFunctionScope" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
   <node concept="1M2fIO" id="Auqn$vFBOB">
@@ -700,9 +714,6 @@
         </node>
       </node>
     </node>
-  </node>
-  <node concept="1M2fIO" id="2jcdRgZp7W4">
-    <ref role="1M2myG" to="np8v:2jcdRgZp7V4" resolve="InterpreterLine" />
   </node>
 </model>
 
