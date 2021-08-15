@@ -274,7 +274,7 @@
     </node>
   </node>
   <node concept="H0yoZ" id="3K_CYPEePKx">
-    <property role="TrG5h" value="Classes" />
+    <property role="TrG5h" value="Structs" />
     <node concept="ugElM" id="3dga67SrWkW" role="H1x4N">
       <property role="TrG5h" value="ip" />
       <node concept="39FQIZ" id="3dga67Sspro" role="ugEkP">

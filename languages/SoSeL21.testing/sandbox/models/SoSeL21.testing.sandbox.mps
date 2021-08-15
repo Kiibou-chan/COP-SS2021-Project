@@ -86,8 +86,8 @@
     </language>
   </registry>
   <node concept="36RyEh" id="5O48DErQPhE">
-    <property role="TrG5h" value="ClassesTest" />
-    <ref role="36RJar" to="yhnl:3K_CYPEePKx" resolve="Classes" />
+    <property role="TrG5h" value="StructsTest" />
+    <ref role="36RJar" to="yhnl:3K_CYPEePKx" resolve="Structs" />
     <node concept="36Rxq1" id="iEnZoEVX12" role="36Rxq4">
       <property role="TrG5h" value="not null" />
       <node concept="IhtY9" id="iEnZoEWbWi" role="H1x4N">

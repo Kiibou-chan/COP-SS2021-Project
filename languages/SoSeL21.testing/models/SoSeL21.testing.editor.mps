@@ -182,6 +182,8 @@
         </node>
       </node>
       <node concept="3F0A7n" id="5O48DErQGz$" role="3EZMnx">
+        <property role="1O74Pk" value="true" />
+        <property role="1$x2rV" value="&lt;no name&gt;" />
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
       </node>
       <node concept="3F0ifn" id="5O48DErQH5S" role="3EZMnx">
