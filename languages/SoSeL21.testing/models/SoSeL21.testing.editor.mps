@@ -543,5 +543,31 @@
       </node>
     </node>
   </node>
+  <node concept="24kQdi" id="iEnZoF1dCJ">
+    <property role="3GE5qa" value="asserts" />
+    <ref role="1XX52x" to="g2me:iEnZoF1dCF" resolve="AssertNotEquals" />
+    <node concept="3EZMnI" id="iEnZoF1dCK" role="2wV5jI">
+      <node concept="l2Vlx" id="iEnZoF1dCL" role="2iSdaV" />
+      <node concept="3F0ifn" id="iEnZoF2eVl" role="3EZMnx">
+        <property role="3F0ifm" value="assert that" />
+        <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
+      </node>
+      <node concept="3F1sOY" id="iEnZoF1dCN" role="3EZMnx">
+        <property role="1$x2rV" value="&lt;no expected&gt;" />
+        <ref role="1NtTu8" to="g2me:iEnZoF1dCH" resolve="expected" />
+        <node concept="3F0ifn" id="iEnZoF1dCO" role="2ruayu">
+          <property role="3F0ifm" value="&lt;no expected&gt;" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="iEnZoF2eVs" role="3EZMnx">
+        <property role="3F0ifm" value="not equals" />
+        <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
+      </node>
+      <node concept="3F1sOY" id="iEnZoF1dCQ" role="3EZMnx">
+        <property role="1$x2rV" value="&lt;no actual&gt;" />
+        <ref role="1NtTu8" to="g2me:iEnZoF1dCI" resolve="actual" />
+      </node>
+    </node>
+  </node>
 </model>
 
