@@ -35,6 +35,7 @@
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
       </concept>
+      <concept id="1078938745671" name="jetbrains.mps.lang.editor.structure.EditorComponentDeclaration" flags="ig" index="PKFIW" />
       <concept id="1078939183254" name="jetbrains.mps.lang.editor.structure.CellModel_Component" flags="sg" stub="3162947552742194261" index="PMmxH">
         <reference id="1078939183255" name="editorComponent" index="PMmxG" />
       </concept>
@@ -60,6 +61,7 @@
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
         <property id="1139852716018" name="noTargetText" index="1$x2rV" />
         <property id="1140017977771" name="readOnly" index="1Intyy" />
+        <property id="1140114345053" name="allowEmptyText" index="1O74Pk" />
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
       </concept>
       <concept id="1073389214265" name="jetbrains.mps.lang.editor.structure.EditorCellModel" flags="ng" index="3EYTF0">
@@ -81,6 +83,7 @@
         <child id="16410578721629643" name="emptyCellModel" index="2ruayu" />
       </concept>
       <concept id="1073390211982" name="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" flags="sg" stub="2794558372793454595" index="3F2HdR" />
+      <concept id="625126330682908270" name="jetbrains.mps.lang.editor.structure.CellModel_ReferencePresentation" flags="sg" stub="730538219795961225" index="3SHvHV" />
       <concept id="1166049232041" name="jetbrains.mps.lang.editor.structure.AbstractComponent" flags="ng" index="1XWOmA">
         <reference id="1166049300910" name="conceptDeclaration" index="1XX52x" />
       </concept>
@@ -117,6 +120,9 @@
       <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk" />
     </language>
     <language id="9d69e719-78c8-4286-90db-fb19c107d049" name="com.mbeddr.mpsutil.grammarcells">
+      <concept id="7363578995839435357" name="com.mbeddr.mpsutil.grammarcells.structure.WrapperCell" flags="ng" index="1kIj98">
+        <child id="7363578995839435358" name="wrapped" index="1kIj9b" />
+      </concept>
       <concept id="2862331529394479412" name="com.mbeddr.mpsutil.grammarcells.structure.GrammarConstantQuery" flags="ig" index="1Lj6DC" />
       <concept id="2862331529394479405" name="com.mbeddr.mpsutil.grammarcells.structure.GrammarConstantQueryCell" flags="ng" index="1Lj6DL">
         <child id="2862331529394487726" name="query" index="1Lj8FM" />
@@ -149,6 +155,9 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+        <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
@@ -227,7 +236,16 @@
         <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
       </node>
       <node concept="3F0A7n" id="5O48DErQI2p" role="3EZMnx">
+        <property role="1$x2rV" value="&lt;no name&gt;" />
+        <property role="1O74Pk" value="true" />
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="3F0ifn" id="iEnZoEQC_i" role="3EZMnx">
+        <property role="3F0ifm" value="for" />
+        <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
+      </node>
+      <node concept="3F1sOY" id="iEnZoEQC_u" role="3EZMnx">
+        <ref role="1NtTu8" to="g2me:iEnZoEQnG8" resolve="for" />
       </node>
       <node concept="PMmxH" id="1XiRvN7GdQg" role="3EZMnx">
         <ref role="PMmxG" to="778r:1lTng$Swou7" resolve="body" />
@@ -385,11 +403,70 @@
       </node>
     </node>
   </node>
-  <node concept="24kQdi" id="2nhpO1lX_eO">
-    <property role="3GE5qa" value="attr" />
-    <ref role="1XX52x" to="g2me:2nhpO1lX_bN" resolve="ErrorLine" />
-    <node concept="3F0A7n" id="2nhpO1lX_eQ" role="2wV5jI">
-      <ref role="1NtTu8" to="g2me:2nhpO1lX_bO" resolve="text" />
+  <node concept="24kQdi" id="iEnZoEQBCD">
+    <property role="3GE5qa" value="references" />
+    <ref role="1XX52x" to="g2me:iEnZoEQroh" resolve="StructMemberReference" />
+    <node concept="3EZMnI" id="iEnZoEQBCF" role="2wV5jI">
+      <node concept="l2Vlx" id="iEnZoEQBCG" role="2iSdaV" />
+      <node concept="1iCGBv" id="iEnZoEQBCL" role="3EZMnx">
+        <ref role="1NtTu8" to="g2me:iEnZoEQroi" resolve="struct" />
+        <node concept="1sVBvm" id="iEnZoEQBCN" role="1sWHZn">
+          <node concept="3F0A7n" id="iEnZoEQBCU" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="iEnZoEQBD2" role="3EZMnx">
+        <property role="3F0ifm" value="::" />
+        <ref role="1k5W1q" to="tpen:hFDnyG9" resolve="Dot" />
+      </node>
+      <node concept="1iCGBv" id="iEnZoEQBDe" role="3EZMnx">
+        <ref role="1NtTu8" to="g2me:iEnZoEQrok" resolve="member" />
+        <node concept="1sVBvm" id="iEnZoEQBDg" role="1sWHZn">
+          <node concept="3SHvHV" id="iEnZoET43Y" role="2wV5jI" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="iEnZoERrb7">
+    <property role="3GE5qa" value="references" />
+    <ref role="1XX52x" to="g2me:iEnZoERrag" resolve="FunctionReference" />
+    <node concept="3EZMnI" id="iEnZoERrcb" role="2wV5jI">
+      <node concept="l2Vlx" id="iEnZoERrcc" role="2iSdaV" />
+      <node concept="1kIj98" id="iEnZoERrbn" role="3EZMnx">
+        <node concept="1iCGBv" id="iEnZoERrb9" role="1kIj9b">
+          <ref role="1NtTu8" to="g2me:iEnZoERrah" resolve="ref" />
+          <node concept="1sVBvm" id="iEnZoERrbb" role="1sWHZn">
+            <node concept="3SHvHV" id="iEnZoETjoy" role="2wV5jI" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="PKFIW" id="iEnZoERs85">
+    <property role="TrG5h" value="DummyForGrammarCells" />
+    <ref role="1XX52x" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="3F0ifn" id="iEnZoERs86" role="2wV5jI">
+      <property role="3F0ifm" value="Workaround to fix contributions to BaseConcept generated by grammarCells." />
+    </node>
+  </node>
+  <node concept="24kQdi" id="iEnZoETvCr">
+    <property role="3GE5qa" value="references" />
+    <ref role="1XX52x" to="g2me:iEnZoETvBy" resolve="VariableReference" />
+    <node concept="3EZMnI" id="iEnZoETvCt" role="2wV5jI">
+      <node concept="l2Vlx" id="iEnZoETvCu" role="2iSdaV" />
+      <node concept="1kIj98" id="iEnZoETvCA" role="3EZMnx">
+        <node concept="1iCGBv" id="iEnZoETvCG" role="1kIj9b">
+          <ref role="1NtTu8" to="g2me:iEnZoETvB_" resolve="ref" />
+          <node concept="1sVBvm" id="iEnZoETvCI" role="1sWHZn">
+            <node concept="3F0A7n" id="iEnZoETvCS" role="2wV5jI">
+              <property role="1Intyy" value="true" />
+              <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
 </model>

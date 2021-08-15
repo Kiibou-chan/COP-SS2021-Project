@@ -7,6 +7,7 @@
   </languages>
   <imports>
     <import index="np8v" ref="r:2927e85f-b64b-452e-b756-b84578e173bb(SoSeL21.structure)" />
+    <import index="tpd4" ref="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -50,6 +51,7 @@
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
+      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ" />
       <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
         <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
@@ -132,6 +134,13 @@
     <node concept="PrWs8" id="1XiRvN7GdDm" role="PzmwI">
       <ref role="PrY4T" to="np8v:1lTng$Swj6r" resolve="IHasBody" />
     </node>
+    <node concept="1TJgyj" id="iEnZoEQnG8" role="1TKVEi">
+      <property role="IQ2ns" value="336186633078012680" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="for" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="iEnZoERE25" resolve="IForTestReference" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5O48DErQSi2">
     <property role="EcuMT" value="6702520192869303426" />
@@ -141,6 +150,12 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="5O48DErQSmZ" role="PzmwI">
       <ref role="PrY4T" to="np8v:77fYV$YdvM3" resolve="ILineContent" />
+    </node>
+    <node concept="PrWs8" id="iEnZoEUzJ4" role="PzmwI">
+      <ref role="PrY4T" to="np8v:6ABi0sWFVmu" resolve="IEvaluate" />
+    </node>
+    <node concept="PrWs8" id="iEnZoEVeHi" role="PzmwI">
+      <ref role="PrY4T" node="iEnZoEVeAz" resolve="IAssert" />
     </node>
     <node concept="1TJgyj" id="5O48DErQSn1" role="1TKVEi">
       <property role="IQ2ns" value="6702520192869303745" />
@@ -163,9 +178,9 @@
     <property role="TrG5h" value="AssertColor" />
     <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
     <node concept="M6xJ_" id="7jspZoV_98T" role="lGtFl">
-      <property role="Hh88m" value="result" />
+      <property role="Hh88m" value="color" />
       <node concept="trNpa" id="7jspZoV_mNd" role="EQaZv">
-        <ref role="trN6q" node="5O48DErQSi2" resolve="AssertEquals" />
+        <ref role="trN6q" node="iEnZoEVeAz" resolve="IAssert" />
       </node>
     </node>
     <node concept="1TJgyi" id="7jspZoV_991" role="1TKVEl">
@@ -209,6 +224,68 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" to="np8v:2nhpO1lX_bN" resolve="ErrorLine" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="iEnZoEQroh">
+    <property role="EcuMT" value="336186633078027793" />
+    <property role="TrG5h" value="StructMemberReference" />
+    <property role="3GE5qa" value="references" />
+    <property role="34LRSv" value="struct member" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="iEnZoEQroi" role="1TKVEi">
+      <property role="IQ2ns" value="336186633078027794" />
+      <property role="20kJfa" value="struct" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="np8v:3K_CYPEeOs6" resolve="StructDefinition" />
+    </node>
+    <node concept="1TJgyj" id="iEnZoEQrok" role="1TKVEi">
+      <property role="IQ2ns" value="336186633078027796" />
+      <property role="20kJfa" value="member" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="PrWs8" id="iEnZoERE29" role="PzmwI">
+      <ref role="PrY4T" node="iEnZoERE25" resolve="IForTestReference" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="iEnZoERrag">
+    <property role="EcuMT" value="336186633078289040" />
+    <property role="3GE5qa" value="references" />
+    <property role="TrG5h" value="FunctionReference" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="iEnZoERrah" role="1TKVEi">
+      <property role="IQ2ns" value="336186633078289041" />
+      <property role="20kJfa" value="ref" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="np8v:FevvnPt3mz" resolve="GlobalFunction" />
+    </node>
+    <node concept="PrWs8" id="iEnZoERE26" role="PzmwI">
+      <ref role="PrY4T" node="iEnZoERE25" resolve="IForTestReference" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="iEnZoERE25">
+    <property role="EcuMT" value="336186633078349957" />
+    <property role="3GE5qa" value="references" />
+    <property role="TrG5h" value="IForTestReference" />
+  </node>
+  <node concept="1TIwiD" id="iEnZoETvBy">
+    <property role="EcuMT" value="336186633078831586" />
+    <property role="3GE5qa" value="references" />
+    <property role="TrG5h" value="VariableReference" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="iEnZoETvBz" role="PzmwI">
+      <ref role="PrY4T" node="iEnZoERE25" resolve="IForTestReference" />
+    </node>
+    <node concept="1TJgyj" id="iEnZoETvB_" role="1TKVEi">
+      <property role="IQ2ns" value="336186633078831589" />
+      <property role="20kJfa" value="ref" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="np8v:lpx$sr6McP" resolve="VariableDeclaration" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="iEnZoEVeAz">
+    <property role="TrG5h" value="IAssert" />
+    <property role="3GE5qa" value="asserts" />
+    <property role="EcuMT" value="336186633079276337" />
   </node>
 </model>
 
