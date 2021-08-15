@@ -10,6 +10,9 @@
   </imports>
   <registry>
     <language id="5374e776-6015-4ade-a1c4-a7c2b818cf2f" name="SoSeL21.testing">
+      <concept id="336186633079455871" name="SoSeL21.testing.structure.AssertNotNull" flags="ng" index="IhtY9">
+        <child id="336186633079455872" name="expr" index="IhtXQ" />
+      </concept>
       <concept id="336186633078831586" name="SoSeL21.testing.structure.VariableReference" flags="ng" index="IjUok">
         <reference id="336186633078831589" name="ref" index="IjUoj" />
       </concept>
@@ -85,6 +88,172 @@
   <node concept="36RyEh" id="5O48DErQPhE">
     <property role="TrG5h" value="ClassesTest" />
     <ref role="36RJar" to="yhnl:3K_CYPEePKx" resolve="Classes" />
+    <node concept="36Rxq1" id="iEnZoEVX12" role="36Rxq4">
+      <property role="TrG5h" value="not null" />
+      <node concept="IhtY9" id="iEnZoEWbWi" role="H1x4N">
+        <node concept="1FEkYV" id="iEnZoEWr5i" role="IhtXQ">
+          <ref role="1FEkZa" to="yhnl:3dga67SrWkW" resolve="ip" />
+        </node>
+        <node concept="1fifne" id="iEnZoEWr63" role="lGtFl">
+          <property role="1fifmR" value="7jspZoV_98Y/none" />
+        </node>
+      </node>
+      <node concept="1K9NmM" id="iEnZoEVX14" role="lGtFl">
+        <node concept="1K9NmN" id="iEnZoEXqWv" role="1K9NmU">
+          <property role="1K9NmO" value="com.mbeddr.mpsutil.interpreter.rt.InterpreterRuntimeException: RuntimeException in Worksheet() on 'Classes' (r:2b1e551e-90ac-4611-995d-aae4051f620a(SoSeL21.sandbox.sandbox)/4334050456498822177):" />
+        </node>
+        <node concept="1K9NmN" id="iEnZoEXqWw" role="1K9NmU">
+          <property role="1K9NmO" value="RuntimeException in Function() on 'recFibWithObj(int)' (r:2b1e551e-90ac-4611-995d-aae4051f620a(SoSeL21.sandbox.sandbox)/877377886686453635):" />
+        </node>
+        <node concept="1K9NmN" id="iEnZoEXqWx" role="1K9NmU">
+          <property role="1K9NmO" value="RuntimeException in return() on 'return' (r:2b1e551e-90ac-4611-995d-aae4051f620a(SoSeL21.sandbox.sandbox)/3982090564528548724):" />
+        </node>
+        <node concept="1K9NmN" id="iEnZoEXqWy" role="1K9NmU">
+          <property role="1K9NmO" value="RuntimeException in .() on '.' (r:2b1e551e-90ac-4611-995d-aae4051f620a(SoSeL21.sandbox.sandbox)/3982090564528559076):" />
+        </node>
+        <node concept="1K9NmN" id="iEnZoEXqWz" role="1K9NmU">
+          <property role="1K9NmO" value="RuntimeException in PropertyAccess() on 'second' (r:2b1e551e-90ac-4611-995d-aae4051f620a(SoSeL21.sandbox.sandbox)/3982090564528560675):" />
+        </node>
+        <node concept="1K9NmN" id="iEnZoEXqW$" role="1K9NmU">
+          <property role="1K9NmO" value="RuntimeException in FunctionCall() on 'recHelper(int, IntPair)' (r:2b1e551e-90ac-4611-995d-aae4051f620a(SoSeL21.sandbox.sandbox)/3982090564528549816):" />
+        </node>
+        <node concept="1K9NmN" id="iEnZoEXqW_" role="1K9NmU">
+          <property role="1K9NmO" value="RuntimeException in VariableReference() on 'a' (r:2b1e551e-90ac-4611-995d-aae4051f620a(SoSeL21.sandbox.sandbox)/3982090564528550354):" />
+        </node>
+        <node concept="1K9NmN" id="iEnZoEXqWA" role="1K9NmU">
+          <property role="1K9NmO" value="Could not find variable a in scope returnValue=NONE, accessToParent=false, variables=[ip=IntPair[first=10, second=20]], name=Test not null in ClassesTest; " />
+        </node>
+        <node concept="1K9NmN" id="iEnZoEXqWB" role="1K9NmU">
+          <property role="1K9NmO" value="returnValue=NONE, accessToParent=false, variables=[ip=IntPair[first=10, second=20]], name=Test not null in ClassesTest; " />
+        </node>
+        <node concept="1K9NmN" id="iEnZoEXqWC" role="1K9NmU">
+          <property role="1K9NmO" value="returnValue=NONE, accessToParent=false, variables=[ip=IntPair[first=10, second=20]], name=Test not null in ClassesTest; " />
+        </node>
+        <node concept="1K9NmN" id="iEnZoEXqWD" role="1K9NmU">
+          <property role="1K9NmO" value="returnValue=NONE, accessToParent=false, variables=[ip=IntPair[first=10, second=20], c=110], name=Test not null in ClassesTest; " />
+        </node>
+        <node concept="1K9NmN" id="iEnZoEXqWE" role="1K9NmU">
+          <property role="1K9NmO" value="returnValue=NONE, accessToParent=false, variables=[ip=IntPair[first=10, second=20]], name=Test not null in ClassesTest; " />
+        </node>
+        <node concept="1K9NmN" id="iEnZoEXqWF" role="1K9NmU">
+          <property role="1K9NmO" value="returnValue=NONE, accessToParent=false, variables=[ip=IntPair[first=10, second=20], c=110], name=Test not null in ClassesTest; " />
+        </node>
+        <node concept="1K9NmN" id="iEnZoEXqWG" role="1K9NmU">
+          <property role="1K9NmO" value="returnValue=NONE, accessToParent=false, variables=[ip=IntPair[first=10, second=20]], name=Test not null in ClassesTest; " />
+        </node>
+        <node concept="1K9NmN" id="iEnZoEXqWH" role="1K9NmU">
+          <property role="1K9NmO" value="returnValue=NONE, accessToParent=false, variables=[ip=IntPair[first=10, second=20], c=110], name=Test properties in ClassesTest; " />
+        </node>
+        <node concept="1K9NmN" id="iEnZoEXqWI" role="1K9NmU">
+          <property role="1K9NmO" value="returnValue=NONE, accessToParent=false, variables=[ip=IntPair[first=10, second=20]], name=Test null in ClassesTest; " />
+        </node>
+        <node concept="1K9NmN" id="iEnZoEXqWJ" role="1K9NmU">
+          <property role="1K9NmO" value="returnValue=NONE, accessToParent=false, variables=[ip=IntPair[first=10, second=20], c=110], name=Test null in ClassesTest; " />
+        </node>
+        <node concept="1K9NmN" id="iEnZoEXqWK" role="1K9NmU">
+          <property role="1K9NmO" value="returnValue=NONE, accessToParent=false, variables=[ip=IntPair[first=10, second=20]], name=Test null in ClassesTest; " />
+        </node>
+        <node concept="1K9NmN" id="iEnZoEXqWL" role="1K9NmU">
+          <property role="1K9NmO" value="returnValue=NONE, accessToParent=false, variables=[ip=IntPair[first=10, second=20]], name=Test null in ClassesTest; " />
+        </node>
+        <node concept="1K9NmN" id="iEnZoEXqWM" role="1K9NmU">
+          <property role="1K9NmO" value="returnValue=NONE, accessToParent=false, variables=[ip=IntPair[first=10, second=20]], name=Test null in ClassesTest; " />
+        </node>
+        <node concept="1K9NmN" id="iEnZoEXqWN" role="1K9NmU">
+          <property role="1K9NmO" value="returnValue=NONE, accessToParent=false, variables=[ip=IntPair[first=10, second=20], c=110], name=Test null in ClassesTest; " />
+        </node>
+        <node concept="1K9NmN" id="iEnZoEXqWO" role="1K9NmU">
+          <property role="1K9NmO" value="returnValue=NONE, accessToParent=false, variables=[ip=IntPair[first=10, second=20]], name=Test null in ClassesTest; " />
+        </node>
+        <node concept="1K9NmN" id="iEnZoEXqWP" role="1K9NmU">
+          <property role="1K9NmO" value="returnValue=NONE, accessToParent=false, variables=[ip=IntPair[first=10, second=20], c=110], name=Test null in ClassesTest; " />
+        </node>
+        <node concept="1K9NmN" id="iEnZoEXqWQ" role="1K9NmU">
+          <property role="1K9NmO" value="returnValue=NONE, accessToParent=false, variables=[ip=IntPair[first=10, second=20], c=110], name=Test null in ClassesTest; " />
+        </node>
+        <node concept="1K9NmN" id="iEnZoEXqWR" role="1K9NmU">
+          <property role="1K9NmO" value="returnValue=NONE, accessToParent=false, variables=[ip=IntPair[first=10, second=20]], name=Test null in ClassesTest; " />
+        </node>
+        <node concept="1K9NmN" id="iEnZoEXqWS" role="1K9NmU">
+          <property role="1K9NmO" value="returnValue=NONE, accessToParent=false, variables=[ip=IntPair[first=10, second=20]], name=Test null in ClassesTest; " />
+        </node>
+        <node concept="1K9NmN" id="iEnZoEXqWT" role="1K9NmU">
+          <property role="1K9NmO" value="returnValue=NONE, accessToParent=false, variables=[ip=IntPair[first=10, second=20]], name=Test null in ClassesTest; " />
+        </node>
+        <node concept="1K9NmN" id="iEnZoEXqWU" role="1K9NmU">
+          <property role="1K9NmO" value="returnValue=NONE, accessToParent=false, variables=[ip=IntPair[first=10, second=20], c=110], name=Test null in ClassesTest; " />
+        </node>
+        <node concept="1K9NmN" id="iEnZoEXqWV" role="1K9NmU">
+          <property role="1K9NmO" value="returnValue=NONE, accessToParent=false, variables=[ip=IntPair[first=10, second=20], c=110], name=Test null in ClassesTest; " />
+        </node>
+        <node concept="1K9NmN" id="iEnZoEXqWW" role="1K9NmU">
+          <property role="1K9NmO" value="returnValue=NONE, accessToParent=false, variables=[ip=IntPair[first=10, second=20]], name=Test null in ClassesTest; " />
+        </node>
+        <node concept="1K9NmN" id="iEnZoEXqWX" role="1K9NmU">
+          <property role="1K9NmO" value="returnValue=NONE, accessToParent=false, variables=[ip=IntPair[first=10, second=20]], name=Test null in ClassesTest; " />
+        </node>
+        <node concept="1K9NmN" id="iEnZoEXqWY" role="1K9NmU">
+          <property role="1K9NmO" value="returnValue=NONE, accessToParent=false, variables=[ip=IntPair[first=10, second=20]], name=Test null in ClassesTest; " />
+        </node>
+        <node concept="1K9NmN" id="iEnZoEXqWZ" role="1K9NmU">
+          <property role="1K9NmO" value="returnValue=NONE, accessToParent=false, variables=[ip=IntPair[first=10, second=20], c=110], name=Test null in ClassesTest; " />
+        </node>
+        <node concept="1K9NmN" id="iEnZoEXqX0" role="1K9NmU">
+          <property role="1K9NmO" value="returnValue=NONE, accessToParent=false, variables=[ip=IntPair[first=10, second=20]], name=Test null in ClassesTest; " />
+        </node>
+        <node concept="1K9NmN" id="iEnZoEXqX1" role="1K9NmU">
+          <property role="1K9NmO" value="returnValue=NONE, accessToParent=false, variables=[ip=IntPair[first=10, second=20]], name=Test null in ClassesTest; " />
+        </node>
+        <node concept="1K9NmN" id="iEnZoEXqX2" role="1K9NmU">
+          <property role="1K9NmO" value="returnValue=NONE, accessToParent=false, variables=[ip=IntPair[first=10, second=20]], name=Test null in ClassesTest; " />
+        </node>
+        <node concept="1K9NmN" id="iEnZoEXqX3" role="1K9NmU">
+          <property role="1K9NmO" value="returnValue=NONE, accessToParent=false, variables=[ip=IntPair[first=10, second=20]], name=Test null in ClassesTest; " />
+        </node>
+        <node concept="1K9NmN" id="iEnZoEXqX4" role="1K9NmU">
+          <property role="1K9NmO" value="returnValue=NONE, accessToParent=false, variables=[ip=IntPair[first=10, second=20]], name=Test null in ClassesTest; " />
+        </node>
+        <node concept="1K9NmN" id="iEnZoEXqX5" role="1K9NmU">
+          <property role="1K9NmO" value="returnValue=NONE, accessToParent=false, variables=[ip=IntPair[first=10, second=20], c=110], name=Test null in ClassesTest; " />
+        </node>
+        <node concept="1K9NmN" id="iEnZoEXqX6" role="1K9NmU">
+          <property role="1K9NmO" value="returnValue=NONE, accessToParent=false, variables=[ip=IntPair[first=10, second=20]], name=Test null in ClassesTest; " />
+        </node>
+        <node concept="1K9NmN" id="iEnZoEXqX7" role="1K9NmU">
+          <property role="1K9NmO" value="returnValue=NONE, accessToParent=false, variables=[ip=IntPair[first=10, second=20]], name=Test null in ClassesTest; " />
+        </node>
+        <node concept="1K9NmN" id="iEnZoEXqX8" role="1K9NmU">
+          <property role="1K9NmO" value="returnValue=NONE, accessToParent=false, variables=[ip=IntPair[first=10, second=20]], name=Test null in ClassesTest; " />
+        </node>
+        <node concept="1K9NmN" id="iEnZoEXqX9" role="1K9NmU">
+          <property role="1K9NmO" value="returnValue=NONE, accessToParent=false, variables=[ip=IntPair[first=10, second=20]], name=Test null in ClassesTest; " />
+        </node>
+        <node concept="1K9NmN" id="iEnZoEXqXa" role="1K9NmU">
+          <property role="1K9NmO" value="returnValue=NONE, accessToParent=false, variables=[ip=IntPair[first=10, second=20]], name=Test null in ClassesTest; " />
+        </node>
+        <node concept="1K9NmN" id="iEnZoEXqXb" role="1K9NmU">
+          <property role="1K9NmO" value="returnValue=NONE, accessToParent=false, variables=[ip=IntPair[first=10, second=20]], name=Test null in ClassesTest; " />
+        </node>
+        <node concept="1K9NmN" id="iEnZoEXqXc" role="1K9NmU">
+          <property role="1K9NmO" value="returnValue=NONE, accessToParent=false, variables=[ip=IntPair[first=10, second=20]], name=Test null in ClassesTest; " />
+        </node>
+        <node concept="1K9NmN" id="iEnZoEXqXd" role="1K9NmU">
+          <property role="1K9NmO" value="returnValue=NONE, accessToParent=false, variables=[ip=IntPair[first=10, second=20]], name=Test null in ClassesTest; " />
+        </node>
+        <node concept="1K9NmN" id="iEnZoEXqXe" role="1K9NmU">
+          <property role="1K9NmO" value="returnValue=NONE, accessToParent=false, variables=[ip=IntPair[first=10, second=20], c=110], name=global scope; " />
+        </node>
+        <node concept="1K9NmN" id="iEnZoEXqXf" role="1K9NmU">
+          <property role="1K9NmO" value="null" />
+        </node>
+        <node concept="1K9NmN" id="iEnZoEXqXg" role="1K9NmU">
+          <property role="1K9NmO" value="" />
+        </node>
+      </node>
+      <node concept="IjUok" id="iEnZoEVX6X" role="IsMjY">
+        <ref role="IjUoj" to="yhnl:3dga67SrWkW" resolve="ip" />
+      </node>
+    </node>
     <node concept="36Rxq1" id="2nhpO1lYV1R" role="36Rxq4">
       <property role="TrG5h" value="compare to new IntPair" />
       <node concept="36RUoo" id="iEnZoEQkoa" role="H1x4N">
@@ -247,7 +416,7 @@
           <property role="uq72F" value="10" />
         </node>
         <node concept="1fifne" id="2nhpO1lYV8$" role="lGtFl">
-          <property role="1fifmR" value="7jspZoV_98X/success" />
+          <property role="1fifmR" value="7jspZoV_98Y/none" />
         </node>
       </node>
       <node concept="36RUoo" id="iEnZoEQiWW" role="H1x4N">
@@ -268,7 +437,7 @@
           </node>
         </node>
         <node concept="1fifne" id="iEnZoEQjuL" role="lGtFl">
-          <property role="1fifmR" value="7jspZoV_98X/success" />
+          <property role="1fifmR" value="7jspZoV_98Y/none" />
         </node>
       </node>
       <node concept="1ZSnvI" id="iEnZoEU4a0" role="H1x4N" />
@@ -285,7 +454,7 @@
           <property role="uq72F" value="20" />
         </node>
         <node concept="1fifne" id="2nhpO1lYV8_" role="lGtFl">
-          <property role="1fifmR" value="7jspZoV_98X/success" />
+          <property role="1fifmR" value="7jspZoV_98Y/none" />
         </node>
       </node>
       <node concept="36RUoo" id="iEnZoEQj4m" role="H1x4N">
@@ -306,7 +475,7 @@
           </node>
         </node>
         <node concept="1fifne" id="iEnZoEQjuM" role="lGtFl">
-          <property role="1fifmR" value="7jspZoV_98X/success" />
+          <property role="1fifmR" value="7jspZoV_98Y/none" />
         </node>
       </node>
       <node concept="1K9NmM" id="iEnZoEVv6f" role="lGtFl">

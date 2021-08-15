@@ -258,7 +258,7 @@
     <node concept="3EZMnI" id="5O48DErQSo8" role="2wV5jI">
       <node concept="l2Vlx" id="5O48DErQSo9" role="2iSdaV" />
       <node concept="3F0ifn" id="5O48DErQTfE" role="3EZMnx">
-        <property role="3F0ifm" value="assert" />
+        <property role="3F0ifm" value="assert that" />
         <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
       </node>
       <node concept="3F1sOY" id="5O48DErQTg$" role="3EZMnx">
@@ -466,6 +466,78 @@
             </node>
           </node>
         </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="iEnZoEVS1$">
+    <property role="3GE5qa" value="asserts" />
+    <ref role="1XX52x" to="g2me:iEnZoEVS0C" resolve="AssertNull" />
+    <node concept="3EZMnI" id="iEnZoEVS1A" role="2wV5jI">
+      <node concept="l2Vlx" id="iEnZoEVS1B" role="2iSdaV" />
+      <node concept="3F0ifn" id="iEnZoEVS1G" role="3EZMnx">
+        <property role="3F0ifm" value="assert that" />
+        <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
+      </node>
+      <node concept="3F1sOY" id="iEnZoEVS1M" role="3EZMnx">
+        <ref role="1NtTu8" to="g2me:iEnZoEVS0I" resolve="expr" />
+      </node>
+      <node concept="3F0ifn" id="iEnZoEVS1U" role="3EZMnx">
+        <property role="3F0ifm" value="is null" />
+        <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="iEnZoEVS2S">
+    <property role="3GE5qa" value="asserts" />
+    <ref role="1XX52x" to="g2me:iEnZoEVS1Z" resolve="AssertNotNull" />
+    <node concept="3EZMnI" id="iEnZoEVS2U" role="2wV5jI">
+      <node concept="l2Vlx" id="iEnZoEVS2V" role="2iSdaV" />
+      <node concept="3F0ifn" id="iEnZoEVS30" role="3EZMnx">
+        <property role="3F0ifm" value="assert that" />
+        <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
+      </node>
+      <node concept="3F1sOY" id="iEnZoEVS36" role="3EZMnx">
+        <ref role="1NtTu8" to="g2me:iEnZoEVS20" resolve="expr" />
+      </node>
+      <node concept="3F0ifn" id="iEnZoEVS3e" role="3EZMnx">
+        <property role="3F0ifm" value="is not null" />
+        <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="iEnZoEWv$j">
+    <property role="3GE5qa" value="asserts" />
+    <ref role="1XX52x" to="g2me:iEnZoEWvzq" resolve="AssertTrue" />
+    <node concept="3EZMnI" id="iEnZoEWv$l" role="2wV5jI">
+      <node concept="l2Vlx" id="iEnZoEWv$m" role="2iSdaV" />
+      <node concept="3F0ifn" id="iEnZoEWv$r" role="3EZMnx">
+        <property role="3F0ifm" value="assert that" />
+        <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
+      </node>
+      <node concept="3F1sOY" id="iEnZoEWv$_" role="3EZMnx">
+        <ref role="1NtTu8" to="g2me:iEnZoEWvzt" resolve="expr" />
+      </node>
+      <node concept="3F0ifn" id="iEnZoEWv$H" role="3EZMnx">
+        <property role="3F0ifm" value="is true" />
+        <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="iEnZoEWv$P">
+    <property role="3GE5qa" value="asserts" />
+    <ref role="1XX52x" to="g2me:iEnZoEWv$M" resolve="AssertFalse" />
+    <node concept="3EZMnI" id="iEnZoEWv$Q" role="2wV5jI">
+      <node concept="l2Vlx" id="iEnZoEWv$R" role="2iSdaV" />
+      <node concept="3F0ifn" id="iEnZoEWv$S" role="3EZMnx">
+        <property role="3F0ifm" value="assert that" />
+        <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
+      </node>
+      <node concept="3F1sOY" id="iEnZoEWv$T" role="3EZMnx">
+        <ref role="1NtTu8" to="g2me:iEnZoEWv$O" resolve="expr" />
+      </node>
+      <node concept="3F0ifn" id="iEnZoEWv$U" role="3EZMnx">
+        <property role="3F0ifm" value="is false" />
+        <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
       </node>
     </node>
   </node>

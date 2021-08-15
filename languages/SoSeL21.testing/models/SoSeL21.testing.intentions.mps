@@ -431,7 +431,7 @@
               </node>
               <node concept="v3k3i" id="iEnZoEVbUx" role="2OqNvi">
                 <node concept="chp4Y" id="iEnZoEVbVr" role="v3oSu">
-                  <ref role="cht4Q" to="g2me:5O48DErQSi2" resolve="AssertEquals" />
+                  <ref role="cht4Q" to="g2me:iEnZoEVeAz" resolve="IAssert" />
                 </node>
               </node>
             </node>

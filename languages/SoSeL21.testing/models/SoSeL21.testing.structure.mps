@@ -51,7 +51,9 @@
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
-      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ" />
+      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ">
+        <child id="1169127546356" name="extends" index="PrDN$" />
+      </concept>
       <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
         <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
@@ -148,12 +150,6 @@
     <property role="34LRSv" value="assert equals" />
     <property role="3GE5qa" value="asserts" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="5O48DErQSmZ" role="PzmwI">
-      <ref role="PrY4T" to="np8v:77fYV$YdvM3" resolve="ILineContent" />
-    </node>
-    <node concept="PrWs8" id="iEnZoEUzJ4" role="PzmwI">
-      <ref role="PrY4T" to="np8v:6ABi0sWFVmu" resolve="IEvaluate" />
-    </node>
     <node concept="PrWs8" id="iEnZoEVeHi" role="PzmwI">
       <ref role="PrY4T" node="iEnZoEVeAz" resolve="IAssert" />
     </node>
@@ -286,6 +282,80 @@
     <property role="TrG5h" value="IAssert" />
     <property role="3GE5qa" value="asserts" />
     <property role="EcuMT" value="336186633079276337" />
+    <node concept="PrWs8" id="5O48DErQSmZ" role="PrDN$">
+      <ref role="PrY4T" to="np8v:77fYV$YdvM3" resolve="ILineContent" />
+    </node>
+    <node concept="PrWs8" id="iEnZoEUzJ4" role="PrDN$">
+      <ref role="PrY4T" to="np8v:6ABi0sWFVmu" resolve="IEvaluate" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="iEnZoEVS0C">
+    <property role="EcuMT" value="336186633079455784" />
+    <property role="3GE5qa" value="asserts" />
+    <property role="TrG5h" value="AssertNull" />
+    <property role="34LRSv" value="assert null" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="iEnZoEVS0D" role="PzmwI">
+      <ref role="PrY4T" node="iEnZoEVeAz" resolve="IAssert" />
+    </node>
+    <node concept="1TJgyj" id="iEnZoEVS0I" role="1TKVEi">
+      <property role="IQ2ns" value="336186633079455790" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="expr" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="np8v:5o0r8SXBR1Q" resolve="Expression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="iEnZoEVS1Z">
+    <property role="EcuMT" value="336186633079455871" />
+    <property role="3GE5qa" value="asserts" />
+    <property role="TrG5h" value="AssertNotNull" />
+    <property role="34LRSv" value="assert not null" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="iEnZoEVS20" role="1TKVEi">
+      <property role="IQ2ns" value="336186633079455872" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="expr" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="np8v:5o0r8SXBR1Q" resolve="Expression" />
+    </node>
+    <node concept="PrWs8" id="iEnZoEVS22" role="PzmwI">
+      <ref role="PrY4T" node="iEnZoEVeAz" resolve="IAssert" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="iEnZoEWvzq">
+    <property role="EcuMT" value="336186633079617754" />
+    <property role="3GE5qa" value="asserts" />
+    <property role="TrG5h" value="AssertTrue" />
+    <property role="34LRSv" value="assert true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="iEnZoEWvzr" role="PzmwI">
+      <ref role="PrY4T" node="iEnZoEVeAz" resolve="IAssert" />
+    </node>
+    <node concept="1TJgyj" id="iEnZoEWvzt" role="1TKVEi">
+      <property role="IQ2ns" value="336186633079617757" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="expr" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="np8v:5o0r8SXBR1Q" resolve="Expression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="iEnZoEWv$M">
+    <property role="EcuMT" value="336186633079617842" />
+    <property role="3GE5qa" value="asserts" />
+    <property role="TrG5h" value="AssertFalse" />
+    <property role="34LRSv" value="assert false" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="iEnZoEWv$N" role="PzmwI">
+      <ref role="PrY4T" node="iEnZoEVeAz" resolve="IAssert" />
+    </node>
+    <node concept="1TJgyj" id="iEnZoEWv$O" role="1TKVEi">
+      <property role="IQ2ns" value="336186633079617844" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="expr" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="np8v:5o0r8SXBR1Q" resolve="Expression" />
+    </node>
   </node>
 </model>
 
