@@ -1077,5 +1077,25 @@
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
+  <node concept="1TIwiD" id="iEnZoEZ$XK">
+    <property role="EcuMT" value="336186633080426352" />
+    <property role="3GE5qa" value="expr.binary.logical" />
+    <property role="TrG5h" value="AndExpression" />
+    <property role="34LRSv" value="&amp;&amp;" />
+    <ref role="1TJDcQ" node="iEnZoEZ$XL" resolve="BinaryLogicalExpression" />
+  </node>
+  <node concept="1TIwiD" id="iEnZoEZ$XL">
+    <property role="EcuMT" value="336186633080426353" />
+    <property role="3GE5qa" value="expr.binary.logical" />
+    <property role="TrG5h" value="BinaryLogicalExpression" />
+    <ref role="1TJDcQ" node="5o0r8SXET6h" resolve="BinaryExpression" />
+  </node>
+  <node concept="1TIwiD" id="iEnZoEZ$XM">
+    <property role="EcuMT" value="336186633080426354" />
+    <property role="3GE5qa" value="expr.binary.logical" />
+    <property role="TrG5h" value="OrExpression" />
+    <property role="34LRSv" value="||" />
+    <ref role="1TJDcQ" node="iEnZoEZ$XL" resolve="BinaryLogicalExpression" />
+  </node>
 </model>
 

@@ -2390,5 +2390,81 @@
       <node concept="3clFbS" id="5FqyMEqsj3g" role="2VODD2" />
     </node>
   </node>
+  <node concept="13h7C7" id="iEnZoEZ_j4">
+    <property role="3GE5qa" value="expr.binary.logical" />
+    <ref role="13h7C2" to="np8v:iEnZoEZ$XK" resolve="AndExpression" />
+    <node concept="13hLZK" id="iEnZoEZ_j5" role="13h7CW">
+      <node concept="3clFbS" id="iEnZoEZ_j6" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="iEnZoEZ_jf" role="13h7CS">
+      <property role="TrG5h" value="getPrecedence" />
+      <property role="2Ki8OM" value="true" />
+      <ref role="13i0hy" node="5gm70GMF5Rx" resolve="getPrecedence" />
+      <node concept="3Tm1VV" id="iEnZoEZ_jg" role="1B3o_S" />
+      <node concept="3clFbS" id="iEnZoEZ_jl" role="3clF47">
+        <node concept="3clFbF" id="iEnZoEZ_jq" role="3cqZAp">
+          <node concept="Rm8GO" id="iEnZoEZ_vd" role="3clFbG">
+            <ref role="Rm8GQ" node="16Q_Z2KPeay" resolve="AND" />
+            <ref role="1Px2BO" node="5gm70GMGtXn" resolve="BinaryExpressionPrecedence" />
+          </node>
+        </node>
+      </node>
+      <node concept="3uibUv" id="iEnZoEZ_jm" role="3clF45">
+        <ref role="3uigEE" node="5gm70GMGtXn" resolve="BinaryExpressionPrecedence" />
+      </node>
+    </node>
+    <node concept="13i0hz" id="iEnZoEZ_jr" role="13h7CS">
+      <property role="TrG5h" value="isLeftAssociative" />
+      <property role="2Ki8OM" value="true" />
+      <ref role="13i0hy" node="5gm70GMF5R_" resolve="isLeftAssociative" />
+      <node concept="3Tm1VV" id="iEnZoEZ_js" role="1B3o_S" />
+      <node concept="3clFbS" id="iEnZoEZ_jx" role="3clF47">
+        <node concept="3clFbF" id="iEnZoEZ_jA" role="3cqZAp">
+          <node concept="3clFbT" id="iEnZoEZ_$M" role="3clFbG">
+            <property role="3clFbU" value="true" />
+          </node>
+        </node>
+      </node>
+      <node concept="10P_77" id="iEnZoEZ_jy" role="3clF45" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="iEnZoEZ_Ds">
+    <property role="3GE5qa" value="expr.binary.logical" />
+    <ref role="13h7C2" to="np8v:iEnZoEZ$XM" resolve="OrExpression" />
+    <node concept="13hLZK" id="iEnZoEZ_Dt" role="13h7CW">
+      <node concept="3clFbS" id="iEnZoEZ_Du" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="iEnZoEZ_DB" role="13h7CS">
+      <property role="TrG5h" value="getPrecedence" />
+      <property role="2Ki8OM" value="true" />
+      <ref role="13i0hy" node="5gm70GMF5Rx" resolve="getPrecedence" />
+      <node concept="3Tm1VV" id="iEnZoEZ_DC" role="1B3o_S" />
+      <node concept="3clFbS" id="iEnZoEZ_DH" role="3clF47">
+        <node concept="3clFbF" id="iEnZoEZ_Oo" role="3cqZAp">
+          <node concept="Rm8GO" id="iEnZoEZ_Pf" role="3clFbG">
+            <ref role="Rm8GQ" node="16Q_Z2KPeA6" resolve="OR" />
+            <ref role="1Px2BO" node="5gm70GMGtXn" resolve="BinaryExpressionPrecedence" />
+          </node>
+        </node>
+      </node>
+      <node concept="3uibUv" id="iEnZoEZ_DI" role="3clF45">
+        <ref role="3uigEE" node="5gm70GMGtXn" resolve="BinaryExpressionPrecedence" />
+      </node>
+    </node>
+    <node concept="13i0hz" id="iEnZoEZ_DN" role="13h7CS">
+      <property role="TrG5h" value="isLeftAssociative" />
+      <property role="2Ki8OM" value="true" />
+      <ref role="13i0hy" node="5gm70GMF5R_" resolve="isLeftAssociative" />
+      <node concept="3Tm1VV" id="iEnZoEZ_DO" role="1B3o_S" />
+      <node concept="3clFbS" id="iEnZoEZ_DT" role="3clF47">
+        <node concept="3clFbF" id="iEnZoEZ_DY" role="3cqZAp">
+          <node concept="3clFbT" id="iEnZoEZ_PH" role="3clFbG">
+            <property role="3clFbU" value="true" />
+          </node>
+        </node>
+      </node>
+      <node concept="10P_77" id="iEnZoEZ_DU" role="3clF45" />
+    </node>
+  </node>
 </model>
 

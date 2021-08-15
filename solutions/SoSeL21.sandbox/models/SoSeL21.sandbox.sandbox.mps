@@ -42,6 +42,8 @@
       <concept id="1547370241162431543" name="SoSeL21.structure.IHasBody" flags="ng" index="H1x4Y">
         <child id="1547370241162431546" name="lines" index="H1x4N" />
       </concept>
+      <concept id="336186633080426354" name="SoSeL21.structure.OrExpression" flags="ng" index="Il124" />
+      <concept id="336186633080426352" name="SoSeL21.structure.AndExpression" flags="ng" index="Il126" />
       <concept id="1979125567210658912" name="SoSeL21.structure.ElseStatement" flags="ng" index="2O2Pxn" />
       <concept id="1979125567210658896" name="SoSeL21.structure.ElseIfStatement" flags="ng" index="2O2PxB" />
       <concept id="1979125567216841151" name="SoSeL21.structure.IfStatement" flags="ng" index="2OFjm8">
@@ -1253,6 +1255,72 @@
       </node>
       <node concept="tW_Eb" id="6ABi0sW$vSB" role="1FEZOn">
         <property role="tW_CN" value="false" />
+      </node>
+    </node>
+    <node concept="1ZSnvI" id="iEnZoEZS$E" role="H1x4N" />
+    <node concept="Il126" id="iEnZoEZSCD" role="H1x4N">
+      <node concept="tW_Eb" id="iEnZoEZSEg" role="1FEZOl">
+        <property role="tW_CN" value="3dga67Sp5IK/true" />
+      </node>
+      <node concept="tW_Eb" id="iEnZoEZSBl" role="1FEZOn">
+        <property role="tW_CN" value="3dga67Sp5IK/true" />
+      </node>
+    </node>
+    <node concept="Il126" id="iEnZoEZSHw" role="H1x4N">
+      <node concept="tW_Eb" id="iEnZoEZSJe" role="1FEZOl">
+        <property role="tW_CN" value="3dga67Sp5IL/false" />
+      </node>
+      <node concept="tW_Eb" id="iEnZoEZSG9" role="1FEZOn">
+        <property role="tW_CN" value="3dga67Sp5IK/true" />
+      </node>
+    </node>
+    <node concept="Il126" id="iEnZoEZSMw" role="H1x4N">
+      <node concept="tW_Eb" id="iEnZoEZSOd" role="1FEZOl">
+        <property role="tW_CN" value="3dga67Sp5IK/true" />
+      </node>
+      <node concept="tW_Eb" id="iEnZoEZSL6" role="1FEZOn">
+        <property role="tW_CN" value="3dga67Sp5IL/false" />
+      </node>
+    </node>
+    <node concept="Il126" id="iEnZoEZSY0" role="H1x4N">
+      <node concept="tW_Eb" id="iEnZoEZSZU" role="1FEZOl">
+        <property role="tW_CN" value="3dga67Sp5IL/false" />
+      </node>
+      <node concept="tW_Eb" id="iEnZoEZSQ8" role="1FEZOn">
+        <property role="tW_CN" value="3dga67Sp5IL/false" />
+      </node>
+    </node>
+    <node concept="1ZSnvI" id="iEnZoEZT09" role="H1x4N" />
+    <node concept="Il124" id="iEnZoEZT78" role="H1x4N">
+      <node concept="tW_Eb" id="iEnZoEZT2Y" role="1FEZOn">
+        <property role="tW_CN" value="3dga67Sp5IK/true" />
+      </node>
+      <node concept="tW_Eb" id="iEnZoEZT2X" role="1FEZOl">
+        <property role="tW_CN" value="3dga67Sp5IK/true" />
+      </node>
+    </node>
+    <node concept="Il124" id="iEnZoEZT8X" role="H1x4N">
+      <node concept="tW_Eb" id="iEnZoEZT31" role="1FEZOn">
+        <property role="tW_CN" value="3dga67Sp5IK/true" />
+      </node>
+      <node concept="tW_Eb" id="iEnZoEZT30" role="1FEZOl">
+        <property role="tW_CN" value="3dga67Sp5IL/false" />
+      </node>
+    </node>
+    <node concept="Il124" id="iEnZoEZTaM" role="H1x4N">
+      <node concept="tW_Eb" id="iEnZoEZT34" role="1FEZOn">
+        <property role="tW_CN" value="3dga67Sp5IL/false" />
+      </node>
+      <node concept="tW_Eb" id="iEnZoEZT33" role="1FEZOl">
+        <property role="tW_CN" value="3dga67Sp5IK/true" />
+      </node>
+    </node>
+    <node concept="Il124" id="iEnZoEZTcB" role="H1x4N">
+      <node concept="tW_Eb" id="iEnZoEZT37" role="1FEZOn">
+        <property role="tW_CN" value="3dga67Sp5IL/false" />
+      </node>
+      <node concept="tW_Eb" id="iEnZoEZT36" role="1FEZOl">
+        <property role="tW_CN" value="3dga67Sp5IL/false" />
       </node>
     </node>
   </node>
