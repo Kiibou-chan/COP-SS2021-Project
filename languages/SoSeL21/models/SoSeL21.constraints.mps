@@ -25,6 +25,7 @@
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1080223426719" name="jetbrains.mps.baseLanguage.structure.OrExpression" flags="nn" index="22lmx$" />
       <concept id="1082485599095" name="jetbrains.mps.baseLanguage.structure.BlockStatement" flags="nn" index="9aQIb">
         <child id="1082485599096" name="statements" index="9aQI4" />
       </concept>
@@ -74,6 +75,10 @@
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
+      </concept>
+      <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
+        <child id="1081773367579" name="rightExpression" index="3uHU7w" />
+        <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
     </language>
     <language id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints">
@@ -353,11 +358,21 @@
     <node concept="9S07l" id="FevvnPtbL$" role="9Vyp8">
       <node concept="3clFbS" id="FevvnPtbL_" role="2VODD2">
         <node concept="3clFbF" id="4j_Xt471Xcy" role="3cqZAp">
-          <node concept="2OqwBi" id="4j_Xt471XoQ" role="3clFbG">
-            <node concept="nLn13" id="4j_Xt471Xcx" role="2Oq$k0" />
-            <node concept="1mIQ4w" id="4j_Xt4722fT" role="2OqNvi">
-              <node concept="chp4Y" id="4j_Xt4722lO" role="cj9EA">
-                <ref role="cht4Q" to="np8v:4KVaSxxegQR" resolve="Worksheet" />
+          <node concept="22lmx$" id="iEnZoD5Z$f" role="3clFbG">
+            <node concept="2OqwBi" id="iEnZoD5ZOn" role="3uHU7w">
+              <node concept="nLn13" id="iEnZoD5Z_o" role="2Oq$k0" />
+              <node concept="1mIQ4w" id="iEnZoD5ZZu" role="2OqNvi">
+                <node concept="chp4Y" id="iEnZoD604i" role="cj9EA">
+                  <ref role="cht4Q" to="np8v:6ABi0sWBP0j" resolve="Function" />
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="4j_Xt471XoQ" role="3uHU7B">
+              <node concept="nLn13" id="4j_Xt471Xcx" role="2Oq$k0" />
+              <node concept="1mIQ4w" id="4j_Xt4722fT" role="2OqNvi">
+                <node concept="chp4Y" id="4j_Xt4722lO" role="cj9EA">
+                  <ref role="cht4Q" to="np8v:4KVaSxxegQR" resolve="Worksheet" />
+                </node>
               </node>
             </node>
           </node>

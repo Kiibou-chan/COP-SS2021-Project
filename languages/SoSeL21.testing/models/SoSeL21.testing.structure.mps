@@ -207,18 +207,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="lines" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="2nhpO1lX_bN" resolve="ErrorLine" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="2nhpO1lX_bN">
-    <property role="EcuMT" value="2725072775553635059" />
-    <property role="3GE5qa" value="attr" />
-    <property role="TrG5h" value="ErrorLine" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="2nhpO1lX_bO" role="1TKVEl">
-      <property role="IQ2nx" value="2725072775553635060" />
-      <property role="TrG5h" value="text" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <ref role="20lvS9" to="np8v:2nhpO1lX_bN" resolve="ErrorLine" />
     </node>
   </node>
 </model>

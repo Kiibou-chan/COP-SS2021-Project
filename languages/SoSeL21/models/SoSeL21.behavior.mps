@@ -180,6 +180,9 @@
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
         <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
       </concept>
+      <concept id="1138411891628" name="jetbrains.mps.lang.smodel.structure.SNodeOperation" flags="nn" index="eCIE_">
+        <child id="1144104376918" name="parameter" index="1xVPHs" />
+      </concept>
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="4693937538533521280" name="jetbrains.mps.lang.smodel.structure.OfConceptOperation" flags="ng" index="v3k3i">
         <child id="4693937538533538124" name="requestedConcept" index="v3oSu" />
@@ -192,6 +195,7 @@
       <concept id="1145567426890" name="jetbrains.mps.lang.smodel.structure.SNodeListCreator" flags="nn" index="2T8Vx0">
         <child id="1145567471833" name="createdType" index="2T96Bj" />
       </concept>
+      <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
       <concept id="3562215692195599741" name="jetbrains.mps.lang.smodel.structure.SLinkImplicitSelect" flags="nn" index="13MTOL">
         <reference id="3562215692195600259" name="link" index="13MTZf" />
       </concept>
@@ -203,6 +207,9 @@
         <reference id="1154546997487" name="concept" index="3gnhBz" />
       </concept>
       <concept id="6870613620390542976" name="jetbrains.mps.lang.smodel.structure.ConceptAliasOperation" flags="ng" index="3n3YKJ" />
+      <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
+        <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
+      </concept>
       <concept id="5944356402132808749" name="jetbrains.mps.lang.smodel.structure.ConceptSwitchStatement" flags="nn" index="1_3QMa">
         <child id="6039268229365417680" name="defaultBlock" index="1prKM_" />
         <child id="5944356402132808753" name="case" index="1_3QMm" />
@@ -1208,6 +1215,54 @@
         </node>
       </node>
       <node concept="17QB3L" id="2jcdRgZ$bf2" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="iEnZoD60r0" role="13h7CS">
+      <property role="TrG5h" value="getFunctionScope" />
+      <ref role="13i0hy" node="5FqyMEqsj3p" resolve="getFunctionScope" />
+      <node concept="3Tm1VV" id="iEnZoD60r1" role="1B3o_S" />
+      <node concept="3clFbS" id="iEnZoD60r4" role="3clF47">
+        <node concept="3clFbF" id="iEnZoD60ML" role="3cqZAp">
+          <node concept="2YIFZM" id="iEnZoD60Pb" role="3clFbG">
+            <ref role="37wK5l" to="o8zo:7ipADkTevQ_" resolve="createComposite" />
+            <ref role="1Pybhc" to="o8zo:7ipADkTevLt" resolve="CompositeScope" />
+            <node concept="2YIFZM" id="iEnZoD60YT" role="37wK5m">
+              <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
+              <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
+              <node concept="2OqwBi" id="iEnZoD63s8" role="37wK5m">
+                <node concept="2OqwBi" id="iEnZoD61r6" role="2Oq$k0">
+                  <node concept="13iPFW" id="iEnZoD614T" role="2Oq$k0" />
+                  <node concept="3Tsc0h" id="iEnZoD61P2" role="2OqNvi">
+                    <ref role="3TtcxE" to="np8v:1lTng$SvOKU" resolve="lines" />
+                  </node>
+                </node>
+                <node concept="v3k3i" id="iEnZoD6572" role="2OqNvi">
+                  <node concept="chp4Y" id="iEnZoD65bF" role="v3oSu">
+                    <ref role="cht4Q" to="np8v:FevvnPt3mz" resolve="GlobalFunction" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="iEnZoD66$J" role="37wK5m">
+              <node concept="2OqwBi" id="iEnZoD65KW" role="2Oq$k0">
+                <node concept="13iPFW" id="iEnZoD65tE" role="2Oq$k0" />
+                <node concept="2Xjw5R" id="iEnZoD66fE" role="2OqNvi">
+                  <node concept="1xMEDy" id="iEnZoD66fG" role="1xVPHs">
+                    <node concept="chp4Y" id="iEnZoD66ko" role="ri$Ld">
+                      <ref role="cht4Q" to="np8v:5FqyMEqsj2N" resolve="IFunctionScopeProvider" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="2qgKlT" id="iEnZoD66Mj" role="2OqNvi">
+                <ref role="37wK5l" node="5FqyMEqsj3p" resolve="getFunctionScope" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3uibUv" id="iEnZoD60r5" role="3clF45">
+        <ref role="3uigEE" to="o8zo:3fifI_xCtN$" resolve="Scope" />
+      </node>
     </node>
     <node concept="13i0hz" id="2jcdRgZ$zIv" role="13h7CS">
       <property role="TrG5h" value="getDescriptionText" />

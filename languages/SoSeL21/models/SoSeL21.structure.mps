@@ -381,6 +381,9 @@
     <node concept="PrWs8" id="4j_Xt470lSW" role="PzmwI">
       <ref role="PrY4T" node="77fYV$YdvM3" resolve="ILineContent" />
     </node>
+    <node concept="PrWs8" id="iEnZoEPh0f" role="PzmwI">
+      <ref role="PrY4T" node="6ABi0sWFVmu" resolve="IEvaluate" />
+    </node>
   </node>
   <node concept="PlHQZ" id="4j_Xt475ETZ">
     <property role="EcuMT" value="4964644442361736831" />
@@ -416,6 +419,9 @@
     <node concept="PrWs8" id="1lTng$SxVXB" role="PzmwI">
       <ref role="PrY4T" node="1lTng$Swj6r" resolve="IHasBody" />
     </node>
+    <node concept="PrWs8" id="iEnZoEPIy6" role="PzmwI">
+      <ref role="PrY4T" node="6ABi0sWFVmu" resolve="IEvaluate" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1HRh3uJQB6Z">
     <property role="EcuMT" value="1979125567216841151" />
@@ -441,6 +447,9 @@
     </node>
     <node concept="PrWs8" id="1lTng$SxVd4" role="PzmwI">
       <ref role="PrY4T" node="1lTng$Swj6r" resolve="IHasBody" />
+    </node>
+    <node concept="PrWs8" id="iEnZoEPC3Q" role="PzmwI">
+      <ref role="PrY4T" node="6ABi0sWFVmu" resolve="IEvaluate" />
     </node>
   </node>
   <node concept="1TIwiD" id="6qZmY4f_wso">
@@ -468,6 +477,9 @@
     </node>
     <node concept="PrWs8" id="1lTng$SxTHW" role="PzmwI">
       <ref role="PrY4T" node="1lTng$Swj6r" resolve="IHasBody" />
+    </node>
+    <node concept="PrWs8" id="iEnZoEPFgM" role="PzmwI">
+      <ref role="PrY4T" node="6ABi0sWFVmu" resolve="IEvaluate" />
     </node>
   </node>
   <node concept="1TIwiD" id="6qZmY4fK8jo">
@@ -783,6 +795,9 @@
     <node concept="PrWs8" id="2jcdRgZ$b7U" role="PzmwI">
       <ref role="PrY4T" to="tpck:69Qfsw3InJo" resolve="ISmartReferent" />
     </node>
+    <node concept="PrWs8" id="iEnZoD60bh" role="PzmwI">
+      <ref role="PrY4T" node="5FqyMEqsj2N" resolve="IFunctionScopeProvider" />
+    </node>
     <node concept="1TJgyj" id="6ABi0sWBQaY" role="1TKVEi">
       <property role="IQ2ns" value="7613132891012162238" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -1059,11 +1074,29 @@
         <ref role="trN6q" node="77fYV$YdvM3" resolve="ILineContent" />
       </node>
     </node>
+    <node concept="1TJgyj" id="iEnZoD6EkU" role="1TKVEi">
+      <property role="IQ2ns" value="336186633048728890" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="errors" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="2nhpO1lX_bN" resolve="ErrorLine" />
+    </node>
   </node>
   <node concept="PlHQZ" id="5FqyMEqsj2N">
     <property role="EcuMT" value="6546698023432433843" />
     <property role="3GE5qa" value="function" />
     <property role="TrG5h" value="IFunctionScopeProvider" />
+  </node>
+  <node concept="1TIwiD" id="2nhpO1lX_bN">
+    <property role="EcuMT" value="2725072775553635059" />
+    <property role="3GE5qa" value="attr" />
+    <property role="TrG5h" value="ErrorLine" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="2nhpO1lX_bO" role="1TKVEl">
+      <property role="IQ2nx" value="2725072775553635060" />
+      <property role="TrG5h" value="text" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
   </node>
 </model>
 
