@@ -1031,22 +1031,6 @@
       </node>
     </node>
   </node>
-  <node concept="1TIwiD" id="4QGLxs0CnHt">
-    <property role="EcuMT" value="5597066239011814237" />
-    <property role="TrG5h" value="Eval" />
-    <property role="34LRSv" value="eval" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="4QGLxs0CnHu" role="PzmwI">
-      <ref role="PrY4T" node="77fYV$YdvM3" resolve="ILineContent" />
-    </node>
-    <node concept="1TJgyj" id="4QGLxs0CnHw" role="1TKVEi">
-      <property role="IQ2ns" value="5597066239011814240" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="expression" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="5o0r8SXBR1Q" resolve="Expression" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="4QGLxs0MfQN">
     <property role="EcuMT" value="5597066239014403507" />
     <property role="TrG5h" value="NullExpression" />
