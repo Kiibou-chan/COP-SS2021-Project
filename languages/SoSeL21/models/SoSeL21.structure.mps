@@ -613,11 +613,6 @@
     <node concept="PrWs8" id="2OssfHlPQMY" role="PzmwI">
       <ref role="PrY4T" to="tpck:69Qfsw3InJo" resolve="ISmartReferent" />
     </node>
-    <node concept="1TJgyi" id="3K_CYPEg54N" role="1TKVEl">
-      <property role="IQ2nx" value="4334050456499147059" />
-      <property role="TrG5h" value="mutable" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
     <node concept="1TJgyj" id="3K_CYPEg54T" role="1TKVEi">
       <property role="IQ2ns" value="4334050456499147065" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
